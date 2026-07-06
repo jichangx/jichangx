@@ -13,7 +13,7 @@
 
 ## 🔗 更多内容
 
-- 🏠 主站(横向对比表 · 189 题问题库 · 图文教程):**[jichangcha.com](https://www.jichangcha.com/)**
+- 🏠 主站(横向对比表 · 189 机场常见题问题库 · 图文教程):**[jichangcha.com](https://www.jichangcha.com/)**
 - ⚖️ [16 家机场对比总表](https://www.jichangcha.com/compare/) —— 优惠码点击即复制
 - 💬 Telegram:[@wanzuanjiedian](https://t.me/wanzuanjiedian)
 
