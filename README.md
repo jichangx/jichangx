@@ -10,6 +10,7 @@
 | ---- | ---- |
 | 🏆 [2026-jichangcha-tuijian](https://github.com/jichangx/2026-jichangcha-tuijian) | **2026 机场推荐排行榜**:16 家机场简评 + 测速图 + 解锁图 |
 | 🥈 [xingdaomeng-jichang](https://github.com/jichangx/xingdaomeng-jichang) | **星岛梦深度测评**:套餐价格 / 实测 / 全平台配置教程 |
+| 🆓 [free-nodes](https://github.com/jichangx/free-nodes) | **每日免费节点**:每天 0 点自动更新,Clash / v2ray 订阅一键导入 |
 
 ## 🔗 更多内容
 
