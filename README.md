@@ -18,6 +18,7 @@
 
 - 🏠 主站(横向对比表 · 189 机场常见题问题库 · 图文教程):**[jichangcha.com](https://www.jichangcha.com/)**
 - ⚖️ [16 家机场对比总表](https://www.jichangcha.com/compare/) —— 优惠码点击即复制
-- 💬 Telegram:[@wanzuanjiedian](https://t.me/wanzuanjiedian)
+- 📣 TG 频道(免费节点 / 共享 ID / 跑路预警自动推送):**[@jichangcha](https://t.me/jichangcha)** · 互助群:[@jichangcha_chat](https://t.me/jichangcha_chat)
+- 💬 Telegram 联系:[@wanzuanjiedian](https://t.me/wanzuanjiedian)
 
 > ⭐ 内容对你有帮助的话,给仓库点个 Star 就是最好的支持。
