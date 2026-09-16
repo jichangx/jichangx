@@ -6,6 +6,8 @@
 
 这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com、机场探 jichangtan.com** 四个站和 GitHub 仓库里最值得收藏的页面,按七个板块整理。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
 
+> **一句话结论(2026-09-16)**:2026 年机场推荐主推星岛梦、次推飞猫云 / 微风网络 / 暮光网络,共收录 32 家;免费节点今日约 319 个;共享 Apple ID 今日 30 个;跑路预警已收录 99 条;客户端 90 多款按平台分类,教程与科普四个站各一套。
+
 <a name="repos"></a>
 ## 📦 GitHub 仓库导航
 
@@ -314,6 +316,28 @@
 - `TG` [TG 互助群 @jichangcha_chat:新手求助、吐槽避坑](https://t.me/jichangcha_chat)
 - `机场中文网` [机场中文网 RSS](https://jichangcnweb.com/rss.xml)
 - `机场帮` [机场帮 RSS](https://www.jichanghelp.com/rss.xml)
+
+## ❓ 常见问题
+
+**2026 年机场推荐哪家?**
+
+机场查主推星岛梦(十年机房、六年运营,IEPL/IPLC 专线,8 元/月起,优惠码 nmw888),次推飞猫云(7 元/月 IEPL 小包)、微风网络(实测香港 500MB/s+)、暮光网络(IEPL 高端档);32 家按老牌 / 性价比 / 稳定 / 高端整理,见 [2026 机场推荐清单](https://github.com/jichangx/2026-jichangcha-tuijian) 与 [机场查对比总表](https://www.jichangcha.com/compare/)。
+
+**免费节点每天在哪拿?**
+
+[free-nodes 仓库](https://github.com/jichangx/free-nodes) 每天 0 点自动更新,Clash / v2ray / 小火箭订阅导入一次以后自动拉最新;免费节点只适合应急,别登录网银或重要账号。
+
+**共享 Apple ID 怎么用才安全?**
+
+只在 App Store 里登录下载小火箭等应用,不要在「设置」里整机登录,下载完立即退出;账号每天更新,见 [share-apple-id 仓库](https://github.com/jichangx/share-apple-id) 与 [机场中文网共享 ID 页](https://jichangcnweb.com/apple-id/)。
+
+**怎么判断一家机场会不会跑路?**
+
+下单前先查 [跑路机场预警名单](https://github.com/jichangx/airport-status)(每日更新,近百条记录),再看 [跑路前的常见迹象](https://jichangcnweb.com/warnings/signs-before-shutdown/);纪律是新机场只月付,年付只给运营两年以上的老牌。
+
+**机场客户端下载和教程在哪?**
+
+[机场探客户端库](https://jichangtan.com/clients/) 按设备和平台收录 90 多款客户端并附官方下载与教程,GitHub 镜像见 [jichang-kehuduan](https://github.com/jichangx/jichang-kehuduan);带截图的配置教程看 [机场中文网](https://jichangcnweb.com/tutorials/)。
 
 ## 📌 声明
 
