@@ -1,5 +1,5 @@
 /**
- * jichangx 主页 README 生成器:三站精品聚合
+ * jichangx 主页 README 生成器:四站精品聚合
  * - 手工维护的链接清单在 ../hub.config.mjs
  * - 实时数字与「最近更新」每天由 GitHub Actions(.github/workflows/daily-update.yml)拉取
  * - 任何抓取失败都不会阻断生成,对应位置退回到固定文案
@@ -64,6 +64,15 @@ const bot = await getJson(LIVE.botData);
 const freeReadme = await getText(LIVE.freeNodesReadme);
 const rssLists = {};
 for (const r of LIVE.rss) rssLists[r.site] = parseRss(await getText(r.url), 5);
+// 机场探没有 RSS,抓动态栏目页
+const tanNewsHtml = LIVE.tanNews ? await getText(LIVE.tanNews) : null;
+const tanSeen = new Set();
+const tanLatest = tanNewsHtml
+  ? [...tanNewsHtml.matchAll(/<a[^>]+href="(\/articles\/[^"#?]+\/)"[^>]*>([\s\S]*?)<\/a>/g)]
+      .map((m) => ({ link: `https://jichangtan.com${m[1]}`, title: decodeEntities(m[2].replace(/<[^>]+>/g, '')).replace(/\s+/g, ' '), path: m[1] }))
+      .filter((a) => !a.path.includes('/category/') && a.title.length > 10 && !tanSeen.has(a.path) && tanSeen.add(a.path))
+      .slice(0, 5)
+  : [];
 
 const airportCount = airportsJson?.count ?? null;
 const shareTotal = bot?.shareId?.total ?? null;
@@ -126,6 +135,7 @@ const latest = [
   latestBlock('机场查 最新文章', chaLatest, 'cha'),
   latestBlock('机场中文网 最新文章', rssLists.cn ?? [], 'cn'),
   latestBlock('机场帮 最新文章', rssLists.help ?? [], 'help'),
+  latestBlock('机场探 最新动态', tanLatest, 'tan'),
 ].join('\n\n');
 
 /* ---------- 站点表 / 仓库表 ---------- */
@@ -146,13 +156,13 @@ const badges = [
   .filter(Boolean)
   .join(' ');
 
-const readme = `# 机场推荐 · 免费节点 · 共享 Apple ID · 跑路预警 · 客户端教程 · 翻墙科普｜三站精品聚合
+const readme = `# 机场推荐 · 免费节点 · 共享 Apple ID · 跑路预警 · 客户端教程 · 翻墙科普｜四站精品聚合
 
 ${badges}
 
 ![2026 翻墙机场精品聚合](banner.png)
 
-这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com** 三个站和 GitHub 仓库里最值得收藏的页面,按七个板块整理。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
+这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com、机场探 jichangtan.com** 四个站和 GitHub 仓库里最值得收藏的页面,按七个板块整理。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
 
 <a name="repos"></a>
 ## 📦 GitHub 仓库导航
@@ -163,7 +173,7 @@ ${repoTable}
 
 品牌测评仓库:${brandRepos}
 
-**三个站各管什么**
+**四个站各管什么**
 
 | 站点 | 定位 | 招牌内容 |
 | ---- | ---- | ---- |
@@ -171,7 +181,7 @@ ${siteTable}
 
 **快速导航**:${nav} · [📦 GitHub 仓库](#repos)
 
-> ⚠️ 三个站都区分「站长实测」「官方资料」「公开反馈」与「尚未核验」,推广链接会明示;第一次买机场先月付,任何订阅链接都别外泄。
+> ⚠️ 四个站都区分「站长实测」「官方资料」「公开反馈」与「尚未核验」,推广链接会明示;第一次买机场先月付,任何订阅链接都别外泄。
 
 ${SECTIONS.filter((s) => s.id !== 'clients' && s.id !== 'news').map(section).join('\n')}
 <a name="clients"></a>
@@ -196,8 +206,8 @@ ${SECTIONS.find((s) => s.id === 'news').groups.map((g) => `**${g.heading}**\n\n$
 
 ## 📌 声明
 
-- 三个站各自独立运营,内容口径见各站说明:[机场查 关于](https://www.jichangcha.com/about/) · [机场帮 编辑政策](https://www.jichanghelp.com/editorial-policy/) · [机场中文网 编辑原则](https://jichangcnweb.com/editorial-policy/)
-- 本页由 GitHub Actions 每日自动生成:数字来自机场查公开数据端点,最近更新来自各站 RSS;链接清单在 [hub.config.mjs](hub.config.mjs)
+- 四个站各自独立运营,内容口径见各站说明:[机场查 关于](https://www.jichangcha.com/about/) · [机场帮 编辑政策](https://www.jichanghelp.com/editorial-policy/) · [机场中文网 编辑原则](https://jichangcnweb.com/editorial-policy/) · [机场探 编辑、推荐与更正政策](https://jichangtan.com/editorial-policy/)
+- 本页由 GitHub Actions 每日自动生成:数字来自机场查公开数据端点,最近更新来自各站 RSS 与栏目页;链接清单在 [hub.config.mjs](hub.config.mjs)
 - 部分链接为推广链接,可能为我们带来收益,不影响收录与排序;内容仅供学习交流,请遵守当地法律法规
 - 反馈:[Issues](https://github.com/jichangx/jichangx/issues) · Telegram [@jichangcha_chat](https://t.me/jichangcha_chat)
 

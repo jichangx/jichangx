@@ -1,6 +1,6 @@
 /**
  * 精品聚合页内容清单(手工维护的部分都在这里,改完跑 node scripts/build-readme.mjs)
- * - 三个站:机场查 jichangcha.com / 机场帮 jichanghelp.com / 机场中文网 jichangcnweb.com
+ * - 四个站:机场查 jichangcha.com / 机场帮 jichanghelp.com / 机场中文网 jichangcnweb.com / 机场探 jichangtan.com
  * - 只放真实存在的页面;数字与「最近更新」由脚本每天自动拉取,不要写死
  * - site 字段用于显示来源标签
  */
@@ -9,6 +9,7 @@ export const SITES = {
   cha: { name: '机场查', domain: 'jichangcha.com', home: 'https://www.jichangcha.com/', tag: '机场查' },
   help: { name: '机场帮', domain: 'jichanghelp.com', home: 'https://www.jichanghelp.com/', tag: '机场帮' },
   cn: { name: '机场中文网', domain: 'jichangcnweb.com', home: 'https://jichangcnweb.com/', tag: '机场中文网' },
+  tan: { name: '机场探', domain: 'jichangtan.com', home: 'https://jichangtan.com/', tag: '机场探' },
   gh: { name: 'GitHub', domain: 'github.com/jichangx', home: 'https://github.com/jichangx', tag: 'GitHub' },
   tg: { name: 'Telegram', domain: 't.me/jichangcha', home: 'https://t.me/jichangcha', tag: 'TG' },
 };
@@ -29,11 +30,17 @@ export const SITE_INTRO = [
     role: '评测、优惠码与避坑',
     best: '机场评测与优惠码中心 · 20 多篇带截图的客户端教程 · 跑路迹象与避坑指南 · AI 工具攻略',
   },
+  {
+    site: 'tan',
+    role: '每日测速观察与客户端库',
+    best: '今日机场观察与四类推荐 · 90 多款客户端按设备平台分类,官方下载与图文教程 · 协议 / 内核科普 · 客户端版本快讯 · 跑路预警讨论',
+  },
 ];
 
 const cha = (p) => `https://www.jichangcha.com${p}`;
 const help = (p) => `https://www.jichanghelp.com${p}`;
 const cn = (p) => `https://jichangcnweb.com${p}`;
+const tan = (p) => `https://jichangtan.com${p}`;
 const gh = (r) => `https://github.com/jichangx/${r}`;
 
 /** 七大板块 */
@@ -53,6 +60,8 @@ export const SECTIONS = [
           { site: 'cha', label: '机场品牌库', url: cha('/brands/'), note: '每家一个资料页:套餐、优惠、资料口径与实测记录' },
           { site: 'cn', label: '2026 机场推荐:稳定、便宜、专线机场整理', url: cn('/airports/'), note: '按月更新的筛选表' },
           { site: 'cn', label: '机场优惠码大全', url: cn('/coupons/'), note: '可用折扣码、适用范围与核验日期' },
+          { site: 'tan', label: '今日机场观察与推荐', url: tan('/'), note: '每日测速观察,速度、稳定性、解锁与价格' },
+          { site: 'tan', label: '机场详情与套餐', url: tan('/airports/'), note: '每家一页' },
         ],
       },
       {
@@ -69,6 +78,7 @@ export const SECTIONS = [
           { site: 'cn', label: '飞猫云 vs 星岛梦,两家低价专线怎么选', url: cn('/compare/feimaoyun-vs-xingdaomeng/') },
           { site: 'cn', label: '机场推荐专题:按需求选,不看排名看匹配', url: cn('/recommend/') },
           { site: 'help', label: '机场导航总表:按地区收录', url: help('/airport-navigation/'), note: '收录 41 家品牌' },
+          { site: 'tan', label: '性价比 / 老牌 / 高端 / 稳定机场推荐', url: tan('/recommendations/value/'), note: '机场探按每日测速观察给出的四类推荐' },
         ],
       },
     ],
@@ -121,6 +131,8 @@ export const SECTIONS = [
           { site: 'cn', label: '机场跑路前的常见迹象', url: cn('/warnings/signs-before-shutdown/'), note: '出现这些信号就该准备撤了' },
           { site: 'cn', label: '机场优惠码使用注意事项:折扣背后的五个套路', url: cn('/warnings/coupon-traps/') },
           { site: 'cn', label: '机场购买避坑指南', url: cn('/warnings/') },
+          { site: 'tan', label: '跑路预警讨论:每家一页社区反馈与风险资料', url: tan('/alerts/') },
+          { site: 'tan', label: '如何留意机场的经营风险信号', url: tan('/articles/airport-risk-signals/') },
           { site: 'help', label: '超售是什么意思:低价套餐背后的物理边界', url: help('/glossary/overselling/') },
           { site: 'help', label: '同源站群是什么意思:识别方法与备份陷阱', url: help('/glossary/same-origin-brands/') },
           { site: 'help', label: '怎么自己核验一家机场:年限、曾用名与同源关系', url: help('/articles/how-we-verify-brands/') },
@@ -132,12 +144,13 @@ export const SECTIONS = [
     id: 'clients',
     emoji: '📱',
     title: '2026 最全客户端下载与教程',
-    intro: '下载与介绍看机场帮的客户端总表,带截图的配置教程看机场中文网,系统级痛点看机场查。',
+    intro: '最全的客户端库在机场探,按设备和平台找,90 多款;带截图的配置教程看机场中文网,下载总表看机场帮,系统级痛点看机场查。',
     groups: [
       {
         heading: '总入口',
         items: [
-          { site: 'gh', label: '客户端下载与教程仓库 · jichang-kehuduan', url: gh('jichang-kehuduan'), note: '全网最全的客户端收集 / 下载 / 图文教程 / 快讯,内容来自机场探,站点上线后同步' },
+          { site: 'tan', label: '机场客户端下载与教程:按设备和平台选择', url: tan('/clients/'), note: '90 多款客户端,官方下载、维护状态与原创教程' },
+          { site: 'gh', label: '客户端下载与教程仓库 · jichang-kehuduan', url: gh('jichang-kehuduan'), note: '机场探客户端库的 GitHub 镜像,每日同步' },
           { site: 'help', label: '全平台机场客户端下载与配置总表', url: help('/clients/'), note: '30 款客户端,一页下完' },
           { site: 'cn', label: '客户端安装与配置教程(按平台分类)', url: cn('/tutorials/') },
           { site: 'cn', label: '代理客户端官方下载地址汇总', url: cn('/download/') },
@@ -165,7 +178,7 @@ export const SECTIONS = [
     id: 'guide',
     emoji: '📚',
     title: '翻墙科普攻略',
-    intro: '从"机场是什么"到"怎么测速、怎么防泄漏",三个站各写了一套,按主题挑最合适的那篇。',
+    intro: '从"机场是什么"到"怎么测速、怎么防泄漏",四个站各写了一套,按主题挑最合适的那篇。',
     groups: [
       {
         heading: '入门',
@@ -177,6 +190,7 @@ export const SECTIONS = [
           { site: 'cha', label: '新手科学上网专题', url: cha('/topics/xinshou-kexue-shangwang/') },
           { site: 'help', label: '机场代理基础知识主题', url: help('/topics/airport-basics/') },
           { site: 'cn', label: '翻墙科普:原理、故障排查与 AI 工具', url: cn('/learn/') },
+          { site: 'tan', label: '机场是什么:订阅、节点、倍率与流量怎么理解', url: tan('/articles/airport-basics/') },
         ],
       },
       {
@@ -201,6 +215,9 @@ export const SECTIONS = [
           { site: 'help', label: '机场稳定性怎么测:可复现的观察方法', url: help('/articles/stability-testing-method/') },
           { site: 'cn', label: '晚高峰速度慢的常见原因与排查', url: cn('/troubleshooting/slow-evening-peak/') },
           { site: 'cn', label: '机场测速与评测方法说明', url: cn('/testing-methodology/') },
+          { site: 'tan', label: '怎么看机场测速数据:延迟、可用性与下载速度', url: tan('/articles/read-speed-test-data/') },
+          { site: 'tan', label: '机场常见代理协议怎么区分:SS / VMess / VLESS / Trojan / Hysteria 2 / TUIC / AnyTLS', url: tan('/articles/proxy-protocols-overview/') },
+          { site: 'tan', label: '代理内核是什么:内核、客户端与订阅格式的关系', url: tan('/articles/what-is-proxy-core/') },
         ],
       },
       {
@@ -230,12 +247,14 @@ export const SECTIONS = [
     id: 'news',
     emoji: '📰',
     title: '机场科普与快讯',
-    intro: '三个站的最新文章每天自动同步到下面;优惠码和跑路名单的变动会先到 TG 频道。',
+    intro: '四个站的最新文章每天自动同步到下面;优惠码和跑路名单的变动会先到 TG 频道。',
     groups: [
       {
         heading: '固定栏目',
         items: [
-          { site: 'gh', label: '机场科普与快讯仓库 · jichang-kepu-kuaixun', url: gh('jichang-kepu-kuaixun'), note: '机场帮「机场杂谈」+ 最新文章,每日同步;机场探上线后合并' },
+          { site: 'gh', label: '机场科普与快讯仓库 · jichang-kepu-kuaixun', url: gh('jichang-kepu-kuaixun'), note: '机场帮「机场杂谈」+ 机场探科普与快讯,每日同步' },
+          { site: 'tan', label: '机场探科普与快讯:测速知识、客户端与行业观察', url: tan('/articles/') },
+          { site: 'tan', label: '客户端版本动态', url: tan('/articles/category/news/') },
           { site: 'cha', label: '机场优惠码大全(月更)', url: cha('/blog/jichang-youhuima/') },
           { site: 'cn', label: '优惠码中心', url: cn('/coupons/') },
           { site: 'help', label: '机场杂谈:那些没人明说的机场常识', url: help('/category/airport-talk/') },
@@ -260,38 +279,41 @@ export const SECTIONS = [
 /** 客户端表:平台 → 客户端 → 下载介绍(机场帮) / 图文教程(机场中文网、机场查) */
 export const CLIENT_TABLE = [
   { platform: 'Windows', rows: [
-    { name: 'Clash Verge Rev', download: help('/clients/clash-verge-rev-windows/'), tutorials: [['机场中文网', cn('/tutorials/clash-verge-windows/')], ['进阶:链式代理与内核切换', cn('/tutorials/clash-verge-rev-advanced/')], ['机场查:Clash 机场推荐', cha('/blog/clash-jichang-tuijian/')]] },
-    { name: 'v2rayN', download: help('/clients/v2rayn-windows/'), tutorials: [['机场中文网', cn('/tutorials/v2rayn-windows/')], ['手动添加节点', cn('/tutorials/v2rayn-manual-nodes/')], ['机场查:v2rayN 机场推荐', cha('/blog/v2rayn-jichang-tuijian/')]] },
-    { name: 'FlClash', download: help('/clients/flclash-windows/'), tutorials: [['机场中文网', cn('/tutorials/flclash/')]] },
-    { name: 'Clash Party(原 Mihomo Party)', download: help('/clients/mihomo-party-windows/'), tutorials: [['机场中文网', cn('/tutorials/clash-party/')]] },
+    { name: 'Clash Verge Rev', download: help('/clients/clash-verge-rev-windows/'), tutorials: [['机场探', tan('/tutorials/clash-verge-rev-windows/')], ['机场中文网', cn('/tutorials/clash-verge-windows/')], ['进阶:链式代理与内核切换', cn('/tutorials/clash-verge-rev-advanced/')], ['机场查:Clash 机场推荐', cha('/blog/clash-jichang-tuijian/')]] },
+    { name: 'v2rayN', download: help('/clients/v2rayn-windows/'), tutorials: [['机场探', tan('/tutorials/v2rayn-windows/')], ['机场中文网', cn('/tutorials/v2rayn-windows/')], ['手动添加节点', cn('/tutorials/v2rayn-manual-nodes/')], ['机场查:v2rayN 机场推荐', cha('/blog/v2rayn-jichang-tuijian/')]] },
+    { name: 'FlClash', download: help('/clients/flclash-windows/'), tutorials: [['机场探', tan('/tutorials/flclash-windows/')], ['机场中文网', cn('/tutorials/flclash/')]] },
+    { name: 'Clash Party(原 Mihomo Party)', download: help('/clients/mihomo-party-windows/'), tutorials: [['机场探', tan('/tutorials/mihomo-party-windows/')], ['机场中文网', cn('/tutorials/clash-party/')]] },
     { name: 'ClashMi', download: null, tutorials: [['机场中文网', cn('/tutorials/clashmi-windows/')]] },
-    { name: 'NekoRay', download: help('/clients/nekoray-windows/'), tutorials: [] },
+    { name: 'NekoRay', download: help('/clients/nekoray-windows/'), tutorials: [['机场探', tan('/tutorials/nekoray-windows/')]] },
     { name: 'Clash for Windows(已停更)', download: help('/clients/clash-for-windows/'), tutorials: [['停更客户端现状', help('/articles/discontinued-clients/')]] },
   ] },
   { platform: 'macOS', rows: [
-    { name: 'Clash Verge Rev', download: help('/clients/clash-verge-rev-macos/'), tutorials: [['机场中文网(含 macOS)', cn('/tutorials/clash-verge-windows/')]] },
-    { name: 'FlClash', download: help('/clients/flclash-macos/'), tutorials: [['机场中文网', cn('/tutorials/flclash/')]] },
+    { name: 'Clash Verge Rev', download: help('/clients/clash-verge-rev-macos/'), tutorials: [['机场探', tan('/tutorials/clash-verge-rev-macos/')], ['机场中文网(含 macOS)', cn('/tutorials/clash-verge-windows/')]] },
+    { name: 'FlClash', download: help('/clients/flclash-macos/'), tutorials: [['机场探', tan('/tutorials/flclash-macos/')], ['机场中文网', cn('/tutorials/flclash/')]] },
+    { name: 'Stash / Surge(macOS)', download: null, tutorials: [['机场探:Stash', tan('/tutorials/stash-macos/')], ['机场探:Surge', tan('/tutorials/surge-macos/')]] },
+    { name: 'v2rayN(macOS)', download: null, tutorials: [['机场探', tan('/tutorials/v2rayn-macos/')]] },
     { name: 'Sparkle', download: help('/clients/sparkle-macos/'), tutorials: [] },
   ] },
   { platform: 'Linux', rows: [
-    { name: 'Clash Verge Rev', download: help('/clients/clash-verge-rev-linux/'), tutorials: [['机场中文网(含 Linux)', cn('/tutorials/clash-verge-windows/')]] },
-    { name: 'FlClash', download: help('/clients/flclash-linux/'), tutorials: [['机场中文网', cn('/tutorials/flclash/')]] },
+    { name: 'Clash Verge Rev', download: help('/clients/clash-verge-rev-linux/'), tutorials: [['机场探', tan('/tutorials/clash-verge-rev-linux/')], ['机场中文网(含 Linux)', cn('/tutorials/clash-verge-windows/')]] },
+    { name: 'FlClash', download: help('/clients/flclash-linux/'), tutorials: [['机场探', tan('/tutorials/flclash-linux/')], ['机场中文网', cn('/tutorials/flclash/')]] },
+    { name: 'Mihomo Party(Linux)', download: null, tutorials: [['机场探', tan('/tutorials/mihomo-party-linux/')]] },
   ] },
   { platform: 'Android', rows: [
-    { name: 'Clash Meta for Android', download: help('/clients/clash-meta-for-android/'), tutorials: [['机场中文网', cn('/tutorials/clash-meta-android/')], ['机场帮:Android 配置', help('/articles/android-client-setup/')]] },
-    { name: 'v2rayNG', download: help('/clients/v2rayng-android/'), tutorials: [['机场中文网', cn('/tutorials/v2rayng-android/')]] },
-    { name: 'FlClash', download: help('/clients/flclash-android/'), tutorials: [['机场中文网', cn('/tutorials/flclash/')]] },
-    { name: 'Surfboard', download: help('/clients/surfboard-android/'), tutorials: [['机场中文网', cn('/tutorials/surfboard-android/')]] },
+    { name: 'Clash Meta for Android', download: help('/clients/clash-meta-for-android/'), tutorials: [['机场探', tan('/tutorials/clash-meta-for-android-android/')], ['机场中文网', cn('/tutorials/clash-meta-android/')], ['机场帮:Android 配置', help('/articles/android-client-setup/')]] },
+    { name: 'v2rayNG', download: help('/clients/v2rayng-android/'), tutorials: [['机场探', tan('/tutorials/v2rayng-android/')], ['机场中文网', cn('/tutorials/v2rayng-android/')]] },
+    { name: 'FlClash', download: help('/clients/flclash-android/'), tutorials: [['机场探', tan('/tutorials/flclash-android/')], ['机场中文网', cn('/tutorials/flclash/')]] },
+    { name: 'Surfboard', download: help('/clients/surfboard-android/'), tutorials: [['机场探', tan('/tutorials/surfboard-android/')], ['机场中文网', cn('/tutorials/surfboard-android/')]] },
     { name: 'Clash for Android(已停更)', download: help('/clients/clash-for-android/'), tutorials: [] },
   ] },
   { platform: 'iOS', rows: [
-    { name: 'Shadowrocket(小火箭)', download: help('/clients/shadowrocket-ios/'), tutorials: [['机场中文网', cn('/tutorials/shadowrocket-ios/')], ['机场查:小火箭机场推荐', cha('/blog/shadowrocket-jichang-tuijian/')], ['共享 Apple ID 下载', cha('/share-id/')]] },
-    { name: 'Stash', download: help('/clients/stash-ios/'), tutorials: [['机场中文网', cn('/tutorials/stash-ios/')]] },
-    { name: 'Quantumult X', download: help('/clients/quantumult-x-ios/'), tutorials: [['机场中文网', cn('/tutorials/quantumultx-ios/')]] },
-    { name: 'Surge', download: null, tutorials: [['机场中文网', cn('/tutorials/surge-ios/')]] },
+    { name: 'Shadowrocket(小火箭)', download: help('/clients/shadowrocket-ios/'), tutorials: [['机场探', tan('/tutorials/shadowrocket-ios/')], ['机场中文网', cn('/tutorials/shadowrocket-ios/')], ['机场查:小火箭机场推荐', cha('/blog/shadowrocket-jichang-tuijian/')], ['共享 Apple ID 下载', cha('/share-id/')]] },
+    { name: 'Stash', download: help('/clients/stash-ios/'), tutorials: [['机场探', tan('/tutorials/stash-ios/')], ['机场中文网', cn('/tutorials/stash-ios/')]] },
+    { name: 'Quantumult X', download: help('/clients/quantumult-x-ios/'), tutorials: [['机场探', tan('/tutorials/quantumult-x-ios/')], ['机场中文网', cn('/tutorials/quantumultx-ios/')]] },
+    { name: 'Surge', download: null, tutorials: [['机场探', tan('/tutorials/surge-ios/')], ['机场中文网', cn('/tutorials/surge-ios/')]] },
     { name: 'sing-box', download: null, tutorials: [['机场中文网', cn('/tutorials/singbox-ios/')]] },
     { name: 'ClashMi', download: help('/clients/clashmi-ios/'), tutorials: [['机场中文网', cn('/tutorials/clashmi-ios/')]] },
-    { name: 'Potatso', download: help('/clients/potatso-lite-ios/'), tutorials: [['机场中文网', cn('/tutorials/potatso-ios/')]] },
+    { name: 'Potatso', download: help('/clients/potatso-lite-ios/'), tutorials: [['机场探', tan('/tutorials/potatso-lite-ios/')], ['机场中文网', cn('/tutorials/potatso-ios/')]] },
     { name: 'Everywhere', download: help('/clients/everywhere-ios/'), tutorials: [['iOS 客户端怎么选', help('/articles/ios-client-comparison/')]] },
   ] },
   { platform: 'HarmonyOS 鸿蒙', rows: [
@@ -299,8 +321,8 @@ export const CLIENT_TABLE = [
     { name: '鸿蒙装 Google Play', download: null, tutorials: [['机场查:HarmonyOS 谷歌商店安装教程', cha('/blog/hongmeng-anzhuang-google-play/')]] },
   ] },
   { platform: '路由器 / 其他', rows: [
-    { name: 'OpenClash(OpenWrt)', download: help('/clients/openclash-openwrt/'), tutorials: [['机场中文网', cn('/tutorials/openclash-openwrt/')]] },
-    { name: 'PassWall 2(OpenWrt)', download: null, tutorials: [['机场中文网', cn('/tutorials/passwall2-openwrt/')]] },
+    { name: 'OpenClash(OpenWrt)', download: help('/clients/openclash-openwrt/'), tutorials: [['机场探', tan('/tutorials/openclash-openwrt/')], ['机场中文网', cn('/tutorials/openclash-openwrt/')]] },
+    { name: 'PassWall 2(OpenWrt)', download: null, tutorials: [['机场探', tan('/tutorials/passwall2-openwrt/')], ['机场中文网', cn('/tutorials/passwall2-openwrt/')]] },
     { name: 'ShellCrash(路由 / Magisk)', download: help('/clients/shellcrash-router/'), tutorials: [['Magisk 版', help('/clients/shellcrash-magisk/')]] },
     { name: 'DeckyClash(SteamOS)', download: help('/clients/deckyclash-steamos/'), tutorials: [] },
   ] },
@@ -313,9 +335,9 @@ export const REPOS = [
   { name: 'share-apple-id', emoji: '🍎', desc: '每日共享 Apple ID:免费外区(美区)苹果 ID,小火箭下载可用,每天更新', from: '机场中文网' },
   { name: 'airport-status', emoji: '🚨', desc: '全网最全最新的机场跑路预警名单,每日更新,下单前先查这家是否跑路', from: '机场中文网' },
   { name: 'xingdaomeng-jichang', emoji: '🥇', desc: '星岛梦机场怎么样:套餐价格、节点测速、解锁与线路评测', from: '机场中文网' },
-  { name: 'jichang-kehuduan', emoji: '🥈', desc: '全网最全的机场客户端收集 / 下载 / 图文教程 / 客户端科普与快讯(站点上线后同步,敬请期待)', from: '机场探' },
+  { name: 'jichang-kehuduan', emoji: '🥈', desc: '全网最全的机场客户端收集 / 下载 / 图文教程 / 客户端科普与快讯,90 多款按平台分类,每日同步', from: '机场探' },
   { name: 'fanqiang-kepu', emoji: '📚', desc: '翻墙科普攻略:原理、线路、故障排查、避坑与 AI 工具,每日同步栏目', from: '机场中文网' },
-  { name: 'jichang-kepu-kuaixun', emoji: '📰', desc: '机场科普与快讯:机场杂谈与最新动态,每日同步(机场探上线后合并)', from: '机场帮 · 机场探' },
+  { name: 'jichang-kepu-kuaixun', emoji: '📰', desc: '机场科普与快讯:机场杂谈、协议与内核科普、客户端版本动态,每日同步', from: '机场帮 · 机场探' },
 ];
 export const BRAND_REPOS = ['feimao-jichang', 'weitu-jichang', 'yuzhou-jichang', 'guangsu-jichang', 'u1s1-jichang', 'jilian-jichang', 'quanqiu-jichang', 'guangnian-jichang', 'yifan-jichang', 'ermao-jichang', 'sogo-jichang', 'edgenova-jichang', 'kexin-jichang', 'sujie-jichang', 'kuaili-jichang'];
 
@@ -328,4 +350,5 @@ export const LIVE = {
     { site: 'cn', url: 'https://jichangcnweb.com/rss.xml' },
     { site: 'help', url: 'https://www.jichanghelp.com/rss.xml' },
   ],
+  tanNews: 'https://jichangtan.com/articles/category/news/',
 };

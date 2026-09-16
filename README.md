@@ -1,10 +1,10 @@
-# 机场推荐 · 免费节点 · 共享 Apple ID · 跑路预警 · 客户端教程 · 翻墙科普｜机场科普与快讯
+# 机场推荐 · 免费节点 · 共享 Apple ID · 跑路预警 · 客户端教程 · 翻墙科普｜四站精品聚合
 
 ![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--09--16-00e676) ![收录机场](https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E6%9C%BA%E5%9C%BA-32%20%E5%AE%B6-00b0ff) ![今日免费节点](https://img.shields.io/badge/%E4%BB%8A%E6%97%A5%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9-%E7%BA%A6%20319%20%E4%B8%AA-00b0ff) ![共享 Apple ID](https://img.shields.io/badge/%E5%85%B1%E4%BA%AB%20Apple%20ID-30%20%E4%B8%AA-fbbf24) ![跑路预警](https://img.shields.io/badge/%E8%B7%91%E8%B7%AF%E9%A2%84%E8%AD%A6-99%20%E6%9D%A1-f87171) [![Telegram](https://img.shields.io/badge/Telegram-%40jichangcha-26A5E4?logo=telegram&logoColor=white)](https://t.me/jichangcha)
 
 ![2026 翻墙机场精品聚合](banner.png)
 
-这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com** 三个站和 GitHub 仓库里最值得收藏的页面,按七个板块整理。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
+这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com、机场探 jichangtan.com** 四个站和 GitHub 仓库里最值得收藏的页面,按七个板块整理。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
 
 <a name="repos"></a>
 ## 📦 GitHub 仓库导航
@@ -16,23 +16,24 @@
 | 🍎 [share-apple-id](https://github.com/jichangx/share-apple-id) | 每日共享 Apple ID:免费外区(美区)苹果 ID,小火箭下载可用,每天更新 | 机场中文网 | [![Stars](https://img.shields.io/github/stars/jichangx/share-apple-id?style=social)](https://github.com/jichangx/share-apple-id/stargazers) |
 | 🚨 [airport-status](https://github.com/jichangx/airport-status) | 全网最全最新的机场跑路预警名单,每日更新,下单前先查这家是否跑路 | 机场中文网 | [![Stars](https://img.shields.io/github/stars/jichangx/airport-status?style=social)](https://github.com/jichangx/airport-status/stargazers) |
 | 🥇 [xingdaomeng-jichang](https://github.com/jichangx/xingdaomeng-jichang) | 星岛梦机场怎么样:套餐价格、节点测速、解锁与线路评测 | 机场中文网 | [![Stars](https://img.shields.io/github/stars/jichangx/xingdaomeng-jichang?style=social)](https://github.com/jichangx/xingdaomeng-jichang/stargazers) |
-| 🥈 [jichang-kehuduan](https://github.com/jichangx/jichang-kehuduan) | 全网最全的机场客户端收集 / 下载 / 图文教程 / 客户端科普与快讯(站点上线后同步,敬请期待) | 机场探 | [![Stars](https://img.shields.io/github/stars/jichangx/jichang-kehuduan?style=social)](https://github.com/jichangx/jichang-kehuduan/stargazers) |
+| 🥈 [jichang-kehuduan](https://github.com/jichangx/jichang-kehuduan) | 全网最全的机场客户端收集 / 下载 / 图文教程 / 客户端科普与快讯,90 多款按平台分类,每日同步 | 机场探 | [![Stars](https://img.shields.io/github/stars/jichangx/jichang-kehuduan?style=social)](https://github.com/jichangx/jichang-kehuduan/stargazers) |
 | 📚 [fanqiang-kepu](https://github.com/jichangx/fanqiang-kepu) | 翻墙科普攻略:原理、线路、故障排查、避坑与 AI 工具,每日同步栏目 | 机场中文网 | [![Stars](https://img.shields.io/github/stars/jichangx/fanqiang-kepu?style=social)](https://github.com/jichangx/fanqiang-kepu/stargazers) |
-| 📰 [jichang-kepu-kuaixun](https://github.com/jichangx/jichang-kepu-kuaixun) | 机场科普与快讯:机场杂谈与最新动态,每日同步(机场探上线后合并) | 机场帮 · 机场探 | [![Stars](https://img.shields.io/github/stars/jichangx/jichang-kepu-kuaixun?style=social)](https://github.com/jichangx/jichang-kepu-kuaixun/stargazers) |
+| 📰 [jichang-kepu-kuaixun](https://github.com/jichangx/jichang-kepu-kuaixun) | 机场科普与快讯:机场杂谈、协议与内核科普、客户端版本动态,每日同步 | 机场帮 · 机场探 | [![Stars](https://img.shields.io/github/stars/jichangx/jichang-kepu-kuaixun?style=social)](https://github.com/jichangx/jichang-kepu-kuaixun/stargazers) |
 
 品牌测评仓库:[feimao](https://github.com/jichangx/feimao-jichang) · [weitu](https://github.com/jichangx/weitu-jichang) · [yuzhou](https://github.com/jichangx/yuzhou-jichang) · [guangsu](https://github.com/jichangx/guangsu-jichang) · [u1s1](https://github.com/jichangx/u1s1-jichang) · [jilian](https://github.com/jichangx/jilian-jichang) · [quanqiu](https://github.com/jichangx/quanqiu-jichang) · [guangnian](https://github.com/jichangx/guangnian-jichang) · [yifan](https://github.com/jichangx/yifan-jichang) · [ermao](https://github.com/jichangx/ermao-jichang) · [sogo](https://github.com/jichangx/sogo-jichang) · [edgenova](https://github.com/jichangx/edgenova-jichang) · [kexin](https://github.com/jichangx/kexin-jichang) · [sujie](https://github.com/jichangx/sujie-jichang) · [kuaili](https://github.com/jichangx/kuaili-jichang)
 
-**三个站各管什么**
+**四个站各管什么**
 
 | 站点 | 定位 | 招牌内容 |
 | ---- | ---- | ---- |
 | [机场查 jichangcha.com](https://www.jichangcha.com/) | 机场品牌库与每日数据 | 32 家机场资料页与对比总表 · 每日免费节点 · 共享 Apple ID · 跑路预警 · 189 题问题库 |
 | [机场帮 jichanghelp.com](https://www.jichanghelp.com/) | 机场导航与客户端百科 | 按地区收录的机场导航总表 · 老牌 / 性价比 / 稳定 / 高端四类精选 · 30 款客户端下载与配置 · 术语库 · 故障排查 |
 | [机场中文网 jichangcnweb.com](https://jichangcnweb.com/) | 评测、优惠码与避坑 | 机场评测与优惠码中心 · 20 多篇带截图的客户端教程 · 跑路迹象与避坑指南 · AI 工具攻略 |
+| [机场探 jichangtan.com](https://jichangtan.com/) | 每日测速观察与客户端库 | 今日机场观察与四类推荐 · 90 多款客户端按设备平台分类,官方下载与图文教程 · 协议 / 内核科普 · 客户端版本快讯 · 跑路预警讨论 |
 
 **快速导航**:[🏆 2026 机场推荐](#tuijian) · [🆓 每日免费节点](#free-nodes) · [🍎 每日共享 Apple ID](#apple-id) · [🚨 跑路机场预警](#status) · [📱 2026 最全客户端下载与教程](#clients) · [📚 翻墙科普攻略](#guide) · [📰 机场科普与快讯](#news) · [📦 GitHub 仓库](#repos)
 
-> ⚠️ 三个站都区分「站长实测」「官方资料」「公开反馈」与「尚未核验」,推广链接会明示;第一次买机场先月付,任何订阅链接都别外泄。
+> ⚠️ 四个站都区分「站长实测」「官方资料」「公开反馈」与「尚未核验」,推广链接会明示;第一次买机场先月付,任何订阅链接都别外泄。
 
 <a name="tuijian"></a>
 ## 🏆 2026 机场推荐
@@ -47,6 +48,8 @@
 - `机场查` [机场品牌库](https://www.jichangcha.com/brands/) —— 每家一个资料页:套餐、优惠、资料口径与实测记录
 - `机场中文网` [2026 机场推荐:稳定、便宜、专线机场整理](https://jichangcnweb.com/airports/) —— 按月更新的筛选表
 - `机场中文网` [机场优惠码大全](https://jichangcnweb.com/coupons/) —— 可用折扣码、适用范围与核验日期
+- `机场探` [今日机场观察与推荐](https://jichangtan.com/) —— 每日测速观察,速度、稳定性、解锁与价格
+- `机场探` [机场详情与套餐](https://jichangtan.com/airports/) —— 每家一页
 
 **按需求挑**
 
@@ -61,6 +64,7 @@
 - `机场中文网` [飞猫云 vs 星岛梦,两家低价专线怎么选](https://jichangcnweb.com/compare/feimaoyun-vs-xingdaomeng/)
 - `机场中文网` [机场推荐专题:按需求选,不看排名看匹配](https://jichangcnweb.com/recommend/)
 - `机场帮` [机场导航总表:按地区收录](https://www.jichanghelp.com/airport-navigation/) —— 收录 41 家品牌
+- `机场探` [性价比 / 老牌 / 高端 / 稳定机场推荐](https://jichangtan.com/recommendations/value/) —— 机场探按每日测速观察给出的四类推荐
 
 <a name="free-nodes"></a>
 ## 🆓 每日免费节点
@@ -95,6 +99,8 @@
 - `机场中文网` [机场跑路前的常见迹象](https://jichangcnweb.com/warnings/signs-before-shutdown/) —— 出现这些信号就该准备撤了
 - `机场中文网` [机场优惠码使用注意事项:折扣背后的五个套路](https://jichangcnweb.com/warnings/coupon-traps/)
 - `机场中文网` [机场购买避坑指南](https://jichangcnweb.com/warnings/)
+- `机场探` [跑路预警讨论:每家一页社区反馈与风险资料](https://jichangtan.com/alerts/)
+- `机场探` [如何留意机场的经营风险信号](https://jichangtan.com/articles/airport-risk-signals/)
 - `机场帮` [超售是什么意思:低价套餐背后的物理边界](https://www.jichanghelp.com/glossary/overselling/)
 - `机场帮` [同源站群是什么意思:识别方法与备份陷阱](https://www.jichanghelp.com/glossary/same-origin-brands/)
 - `机场帮` [怎么自己核验一家机场:年限、曾用名与同源关系](https://www.jichanghelp.com/articles/how-we-verify-brands/)
@@ -102,7 +108,7 @@
 <a name="guide"></a>
 ## 📚 翻墙科普攻略
 
-从"机场是什么"到"怎么测速、怎么防泄漏",三个站各写了一套,按主题挑最合适的那篇。
+从"机场是什么"到"怎么测速、怎么防泄漏",四个站各写了一套,按主题挑最合适的那篇。
 
 **入门**
 
@@ -113,6 +119,7 @@
 - `机场查` [新手科学上网专题](https://www.jichangcha.com/topics/xinshou-kexue-shangwang/)
 - `机场帮` [机场代理基础知识主题](https://www.jichanghelp.com/topics/airport-basics/)
 - `机场中文网` [翻墙科普:原理、故障排查与 AI 工具](https://jichangcnweb.com/learn/)
+- `机场探` [机场是什么:订阅、节点、倍率与流量怎么理解](https://jichangtan.com/articles/airport-basics/)
 
 **选购与算账**
 
@@ -133,6 +140,9 @@
 - `机场帮` [机场稳定性怎么测:可复现的观察方法](https://www.jichanghelp.com/articles/stability-testing-method/)
 - `机场中文网` [晚高峰速度慢的常见原因与排查](https://jichangcnweb.com/troubleshooting/slow-evening-peak/)
 - `机场中文网` [机场测速与评测方法说明](https://jichangcnweb.com/testing-methodology/)
+- `机场探` [怎么看机场测速数据:延迟、可用性与下载速度](https://jichangtan.com/articles/read-speed-test-data/)
+- `机场探` [机场常见代理协议怎么区分:SS / VMess / VLESS / Trojan / Hysteria 2 / TUIC / AnyTLS](https://jichangtan.com/articles/proxy-protocols-overview/)
+- `机场探` [代理内核是什么:内核、客户端与订阅格式的关系](https://jichangtan.com/articles/what-is-proxy-core/)
 
 **术语与问答**
 
@@ -154,11 +164,12 @@
 <a name="clients"></a>
 ## 📱 2026 最全客户端下载与教程
 
-下载与介绍看机场帮的客户端总表,带截图的配置教程看机场中文网,系统级痛点看机场查。
+最全的客户端库在机场探,按设备和平台找,90 多款;带截图的配置教程看机场中文网,下载总表看机场帮,系统级痛点看机场查。
 
 **总入口**
 
-- `GitHub` [客户端下载与教程仓库 · jichang-kehuduan](https://github.com/jichangx/jichang-kehuduan) —— 全网最全的客户端收集 / 下载 / 图文教程 / 快讯,内容来自机场探,站点上线后同步
+- `机场探` [机场客户端下载与教程:按设备和平台选择](https://jichangtan.com/clients/) —— 90 多款客户端,官方下载、维护状态与原创教程
+- `GitHub` [客户端下载与教程仓库 · jichang-kehuduan](https://github.com/jichangx/jichang-kehuduan) —— 机场探客户端库的 GitHub 镜像,每日同步
 - `机场帮` [全平台机场客户端下载与配置总表](https://www.jichanghelp.com/clients/) —— 30 款客户端,一页下完
 - `机场中文网` [客户端安装与配置教程(按平台分类)](https://jichangcnweb.com/tutorials/)
 - `机场中文网` [代理客户端官方下载地址汇总](https://jichangcnweb.com/download/)
@@ -183,50 +194,53 @@
 
 | 客户端 | 下载与介绍 | 图文教程 |
 | ---- | ---- | ---- |
-| Clash Verge Rev | [下载与介绍](https://www.jichanghelp.com/clients/clash-verge-rev-windows/) | [机场中文网](https://jichangcnweb.com/tutorials/clash-verge-windows/) · [进阶:链式代理与内核切换](https://jichangcnweb.com/tutorials/clash-verge-rev-advanced/) · [机场查:Clash 机场推荐](https://www.jichangcha.com/blog/clash-jichang-tuijian/) |
-| v2rayN | [下载与介绍](https://www.jichanghelp.com/clients/v2rayn-windows/) | [机场中文网](https://jichangcnweb.com/tutorials/v2rayn-windows/) · [手动添加节点](https://jichangcnweb.com/tutorials/v2rayn-manual-nodes/) · [机场查:v2rayN 机场推荐](https://www.jichangcha.com/blog/v2rayn-jichang-tuijian/) |
-| FlClash | [下载与介绍](https://www.jichanghelp.com/clients/flclash-windows/) | [机场中文网](https://jichangcnweb.com/tutorials/flclash/) |
-| Clash Party(原 Mihomo Party) | [下载与介绍](https://www.jichanghelp.com/clients/mihomo-party-windows/) | [机场中文网](https://jichangcnweb.com/tutorials/clash-party/) |
+| Clash Verge Rev | [下载与介绍](https://www.jichanghelp.com/clients/clash-verge-rev-windows/) | [机场探](https://jichangtan.com/tutorials/clash-verge-rev-windows/) · [机场中文网](https://jichangcnweb.com/tutorials/clash-verge-windows/) · [进阶:链式代理与内核切换](https://jichangcnweb.com/tutorials/clash-verge-rev-advanced/) · [机场查:Clash 机场推荐](https://www.jichangcha.com/blog/clash-jichang-tuijian/) |
+| v2rayN | [下载与介绍](https://www.jichanghelp.com/clients/v2rayn-windows/) | [机场探](https://jichangtan.com/tutorials/v2rayn-windows/) · [机场中文网](https://jichangcnweb.com/tutorials/v2rayn-windows/) · [手动添加节点](https://jichangcnweb.com/tutorials/v2rayn-manual-nodes/) · [机场查:v2rayN 机场推荐](https://www.jichangcha.com/blog/v2rayn-jichang-tuijian/) |
+| FlClash | [下载与介绍](https://www.jichanghelp.com/clients/flclash-windows/) | [机场探](https://jichangtan.com/tutorials/flclash-windows/) · [机场中文网](https://jichangcnweb.com/tutorials/flclash/) |
+| Clash Party(原 Mihomo Party) | [下载与介绍](https://www.jichanghelp.com/clients/mihomo-party-windows/) | [机场探](https://jichangtan.com/tutorials/mihomo-party-windows/) · [机场中文网](https://jichangcnweb.com/tutorials/clash-party/) |
 | ClashMi | — | [机场中文网](https://jichangcnweb.com/tutorials/clashmi-windows/) |
-| NekoRay | [下载与介绍](https://www.jichanghelp.com/clients/nekoray-windows/) | — |
+| NekoRay | [下载与介绍](https://www.jichanghelp.com/clients/nekoray-windows/) | [机场探](https://jichangtan.com/tutorials/nekoray-windows/) |
 | Clash for Windows(已停更) | [下载与介绍](https://www.jichanghelp.com/clients/clash-for-windows/) | [停更客户端现状](https://www.jichanghelp.com/articles/discontinued-clients/) |
 
 **macOS**
 
 | 客户端 | 下载与介绍 | 图文教程 |
 | ---- | ---- | ---- |
-| Clash Verge Rev | [下载与介绍](https://www.jichanghelp.com/clients/clash-verge-rev-macos/) | [机场中文网(含 macOS)](https://jichangcnweb.com/tutorials/clash-verge-windows/) |
-| FlClash | [下载与介绍](https://www.jichanghelp.com/clients/flclash-macos/) | [机场中文网](https://jichangcnweb.com/tutorials/flclash/) |
+| Clash Verge Rev | [下载与介绍](https://www.jichanghelp.com/clients/clash-verge-rev-macos/) | [机场探](https://jichangtan.com/tutorials/clash-verge-rev-macos/) · [机场中文网(含 macOS)](https://jichangcnweb.com/tutorials/clash-verge-windows/) |
+| FlClash | [下载与介绍](https://www.jichanghelp.com/clients/flclash-macos/) | [机场探](https://jichangtan.com/tutorials/flclash-macos/) · [机场中文网](https://jichangcnweb.com/tutorials/flclash/) |
+| Stash / Surge(macOS) | — | [机场探:Stash](https://jichangtan.com/tutorials/stash-macos/) · [机场探:Surge](https://jichangtan.com/tutorials/surge-macos/) |
+| v2rayN(macOS) | — | [机场探](https://jichangtan.com/tutorials/v2rayn-macos/) |
 | Sparkle | [下载与介绍](https://www.jichanghelp.com/clients/sparkle-macos/) | — |
 
 **Linux**
 
 | 客户端 | 下载与介绍 | 图文教程 |
 | ---- | ---- | ---- |
-| Clash Verge Rev | [下载与介绍](https://www.jichanghelp.com/clients/clash-verge-rev-linux/) | [机场中文网(含 Linux)](https://jichangcnweb.com/tutorials/clash-verge-windows/) |
-| FlClash | [下载与介绍](https://www.jichanghelp.com/clients/flclash-linux/) | [机场中文网](https://jichangcnweb.com/tutorials/flclash/) |
+| Clash Verge Rev | [下载与介绍](https://www.jichanghelp.com/clients/clash-verge-rev-linux/) | [机场探](https://jichangtan.com/tutorials/clash-verge-rev-linux/) · [机场中文网(含 Linux)](https://jichangcnweb.com/tutorials/clash-verge-windows/) |
+| FlClash | [下载与介绍](https://www.jichanghelp.com/clients/flclash-linux/) | [机场探](https://jichangtan.com/tutorials/flclash-linux/) · [机场中文网](https://jichangcnweb.com/tutorials/flclash/) |
+| Mihomo Party(Linux) | — | [机场探](https://jichangtan.com/tutorials/mihomo-party-linux/) |
 
 **Android**
 
 | 客户端 | 下载与介绍 | 图文教程 |
 | ---- | ---- | ---- |
-| Clash Meta for Android | [下载与介绍](https://www.jichanghelp.com/clients/clash-meta-for-android/) | [机场中文网](https://jichangcnweb.com/tutorials/clash-meta-android/) · [机场帮:Android 配置](https://www.jichanghelp.com/articles/android-client-setup/) |
-| v2rayNG | [下载与介绍](https://www.jichanghelp.com/clients/v2rayng-android/) | [机场中文网](https://jichangcnweb.com/tutorials/v2rayng-android/) |
-| FlClash | [下载与介绍](https://www.jichanghelp.com/clients/flclash-android/) | [机场中文网](https://jichangcnweb.com/tutorials/flclash/) |
-| Surfboard | [下载与介绍](https://www.jichanghelp.com/clients/surfboard-android/) | [机场中文网](https://jichangcnweb.com/tutorials/surfboard-android/) |
+| Clash Meta for Android | [下载与介绍](https://www.jichanghelp.com/clients/clash-meta-for-android/) | [机场探](https://jichangtan.com/tutorials/clash-meta-for-android-android/) · [机场中文网](https://jichangcnweb.com/tutorials/clash-meta-android/) · [机场帮:Android 配置](https://www.jichanghelp.com/articles/android-client-setup/) |
+| v2rayNG | [下载与介绍](https://www.jichanghelp.com/clients/v2rayng-android/) | [机场探](https://jichangtan.com/tutorials/v2rayng-android/) · [机场中文网](https://jichangcnweb.com/tutorials/v2rayng-android/) |
+| FlClash | [下载与介绍](https://www.jichanghelp.com/clients/flclash-android/) | [机场探](https://jichangtan.com/tutorials/flclash-android/) · [机场中文网](https://jichangcnweb.com/tutorials/flclash/) |
+| Surfboard | [下载与介绍](https://www.jichanghelp.com/clients/surfboard-android/) | [机场探](https://jichangtan.com/tutorials/surfboard-android/) · [机场中文网](https://jichangcnweb.com/tutorials/surfboard-android/) |
 | Clash for Android(已停更) | [下载与介绍](https://www.jichanghelp.com/clients/clash-for-android/) | — |
 
 **iOS**
 
 | 客户端 | 下载与介绍 | 图文教程 |
 | ---- | ---- | ---- |
-| Shadowrocket(小火箭) | [下载与介绍](https://www.jichanghelp.com/clients/shadowrocket-ios/) | [机场中文网](https://jichangcnweb.com/tutorials/shadowrocket-ios/) · [机场查:小火箭机场推荐](https://www.jichangcha.com/blog/shadowrocket-jichang-tuijian/) · [共享 Apple ID 下载](https://www.jichangcha.com/share-id/) |
-| Stash | [下载与介绍](https://www.jichanghelp.com/clients/stash-ios/) | [机场中文网](https://jichangcnweb.com/tutorials/stash-ios/) |
-| Quantumult X | [下载与介绍](https://www.jichanghelp.com/clients/quantumult-x-ios/) | [机场中文网](https://jichangcnweb.com/tutorials/quantumultx-ios/) |
-| Surge | — | [机场中文网](https://jichangcnweb.com/tutorials/surge-ios/) |
+| Shadowrocket(小火箭) | [下载与介绍](https://www.jichanghelp.com/clients/shadowrocket-ios/) | [机场探](https://jichangtan.com/tutorials/shadowrocket-ios/) · [机场中文网](https://jichangcnweb.com/tutorials/shadowrocket-ios/) · [机场查:小火箭机场推荐](https://www.jichangcha.com/blog/shadowrocket-jichang-tuijian/) · [共享 Apple ID 下载](https://www.jichangcha.com/share-id/) |
+| Stash | [下载与介绍](https://www.jichanghelp.com/clients/stash-ios/) | [机场探](https://jichangtan.com/tutorials/stash-ios/) · [机场中文网](https://jichangcnweb.com/tutorials/stash-ios/) |
+| Quantumult X | [下载与介绍](https://www.jichanghelp.com/clients/quantumult-x-ios/) | [机场探](https://jichangtan.com/tutorials/quantumult-x-ios/) · [机场中文网](https://jichangcnweb.com/tutorials/quantumultx-ios/) |
+| Surge | — | [机场探](https://jichangtan.com/tutorials/surge-ios/) · [机场中文网](https://jichangcnweb.com/tutorials/surge-ios/) |
 | sing-box | — | [机场中文网](https://jichangcnweb.com/tutorials/singbox-ios/) |
 | ClashMi | [下载与介绍](https://www.jichanghelp.com/clients/clashmi-ios/) | [机场中文网](https://jichangcnweb.com/tutorials/clashmi-ios/) |
-| Potatso | [下载与介绍](https://www.jichanghelp.com/clients/potatso-lite-ios/) | [机场中文网](https://jichangcnweb.com/tutorials/potatso-ios/) |
+| Potatso | [下载与介绍](https://www.jichanghelp.com/clients/potatso-lite-ios/) | [机场探](https://jichangtan.com/tutorials/potatso-lite-ios/) · [机场中文网](https://jichangcnweb.com/tutorials/potatso-ios/) |
 | Everywhere | [下载与介绍](https://www.jichanghelp.com/clients/everywhere-ios/) | [iOS 客户端怎么选](https://www.jichanghelp.com/articles/ios-client-comparison/) |
 
 **HarmonyOS 鸿蒙**
@@ -240,15 +254,15 @@
 
 | 客户端 | 下载与介绍 | 图文教程 |
 | ---- | ---- | ---- |
-| OpenClash(OpenWrt) | [下载与介绍](https://www.jichanghelp.com/clients/openclash-openwrt/) | [机场中文网](https://jichangcnweb.com/tutorials/openclash-openwrt/) |
-| PassWall 2(OpenWrt) | — | [机场中文网](https://jichangcnweb.com/tutorials/passwall2-openwrt/) |
+| OpenClash(OpenWrt) | [下载与介绍](https://www.jichanghelp.com/clients/openclash-openwrt/) | [机场探](https://jichangtan.com/tutorials/openclash-openwrt/) · [机场中文网](https://jichangcnweb.com/tutorials/openclash-openwrt/) |
+| PassWall 2(OpenWrt) | — | [机场探](https://jichangtan.com/tutorials/passwall2-openwrt/) · [机场中文网](https://jichangcnweb.com/tutorials/passwall2-openwrt/) |
 | ShellCrash(路由 / Magisk) | [下载与介绍](https://www.jichanghelp.com/clients/shellcrash-router/) | [Magisk 版](https://www.jichanghelp.com/clients/shellcrash-magisk/) |
 | DeckyClash(SteamOS) | [下载与介绍](https://www.jichanghelp.com/clients/deckyclash-steamos/) | — |
 
 <a name="news"></a>
 ## 📰 机场科普与快讯
 
-三个站的最新文章每天自动同步到下面;优惠码和跑路名单的变动会先到 TG 频道。
+四个站的最新文章每天自动同步到下面;优惠码和跑路名单的变动会先到 TG 频道。
 
 **机场查 最新文章**
 
@@ -274,9 +288,19 @@
 - `机场帮` [节点列表里的网址是什么，选中为什么连不上](https://www.jichanghelp.com/articles/fake-nodes-in-list/) · 2026-08-13
 - `机场帮` [节点名字里那串符号各是什么意思](https://www.jichanghelp.com/articles/how-to-read-node-names/) · 2026-08-13
 
+**机场探 最新动态**
+
+- `机场探` [Quantumult X 1.8.0 发布：针对 iOS 27 优化，最低系统要求提高到 iOS 15](https://jichangtan.com/articles/quantumult-x-1-8-0/)
+- `机场探` [mihomo v1.19.31 发布：新增 EasyTier 出站，修复 Hysteria 与 Hysteria2 的 UDP 问题](https://jichangtan.com/articles/mihomo-v1-19-31/)
+- `机场探` [Surge 5.22.1（iOS）发布：GEOIP 与 IP-ASN 规则支持 UNKNOWN，修复 Hysteria UDP 转发异常](https://jichangtan.com/articles/surge-5-22-1/)
+- `机场探` [FlClash v0.8.97 发布：界面、安卓 VPN 服务与桌面端大范围重构，新增可选的本地代理认证](https://jichangtan.com/articles/flclash-v0-8-97/)
+- `机场探` [Shadowrocket 2.2.92 发布：新增 Sudoku 协议，扩充 DNS 与 Tailscale 功能，可导入更多类型的 Clash 订阅节点](https://jichangtan.com/articles/shadowrocket-2-2-92/)
+
 **固定栏目**
 
-- `GitHub` [机场科普与快讯仓库 · jichang-kepu-kuaixun](https://github.com/jichangx/jichang-kepu-kuaixun) —— 机场帮「机场杂谈」+ 最新文章,每日同步;机场探上线后合并
+- `GitHub` [机场科普与快讯仓库 · jichang-kepu-kuaixun](https://github.com/jichangx/jichang-kepu-kuaixun) —— 机场帮「机场杂谈」+ 机场探科普与快讯,每日同步
+- `机场探` [机场探科普与快讯:测速知识、客户端与行业观察](https://jichangtan.com/articles/)
+- `机场探` [客户端版本动态](https://jichangtan.com/articles/category/news/)
 - `机场查` [机场优惠码大全(月更)](https://www.jichangcha.com/blog/jichang-youhuima/)
 - `机场中文网` [优惠码中心](https://jichangcnweb.com/coupons/)
 - `机场帮` [机场杂谈:那些没人明说的机场常识](https://www.jichanghelp.com/category/airport-talk/)
@@ -293,8 +317,8 @@
 
 ## 📌 声明
 
-- 三个站各自独立运营,内容口径见各站说明:[机场查 关于](https://www.jichangcha.com/about/) · [机场帮 编辑政策](https://www.jichanghelp.com/editorial-policy/) · [机场中文网 编辑原则](https://jichangcnweb.com/editorial-policy/)
-- 本页由 GitHub Actions 每日自动生成:数字来自机场查公开数据端点,最近更新来自各站 RSS;链接清单在 [hub.config.mjs](hub.config.mjs)
+- 四个站各自独立运营,内容口径见各站说明:[机场查 关于](https://www.jichangcha.com/about/) · [机场帮 编辑政策](https://www.jichanghelp.com/editorial-policy/) · [机场中文网 编辑原则](https://jichangcnweb.com/editorial-policy/) · [机场探 编辑、推荐与更正政策](https://jichangtan.com/editorial-policy/)
+- 本页由 GitHub Actions 每日自动生成:数字来自机场查公开数据端点,最近更新来自各站 RSS 与栏目页;链接清单在 [hub.config.mjs](hub.config.mjs)
 - 部分链接为推广链接,可能为我们带来收益,不影响收录与排序;内容仅供学习交流,请遵守当地法律法规
 - 反馈:[Issues](https://github.com/jichangx/jichangx/issues) · Telegram [@jichangcha_chat](https://t.me/jichangcha_chat)
 
