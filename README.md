@@ -1,4 +1,4 @@
-# 机场推荐 · 免费节点 · 共享 Apple ID · 跑路预警 · 客户端教程 · 翻墙科普｜三站精品聚合
+# 机场推荐 · 免费节点 · 共享 Apple ID · 跑路预警 · 客户端教程 · 翻墙科普｜机场科普与快讯
 
 ![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--09--16-00e676) ![收录机场](https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E6%9C%BA%E5%9C%BA-32%20%E5%AE%B6-00b0ff) ![今日免费节点](https://img.shields.io/badge/%E4%BB%8A%E6%97%A5%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9-%E7%BA%A6%20319%20%E4%B8%AA-00b0ff) ![共享 Apple ID](https://img.shields.io/badge/%E5%85%B1%E4%BA%AB%20Apple%20ID-30%20%E4%B8%AA-fbbf24) ![跑路预警](https://img.shields.io/badge/%E8%B7%91%E8%B7%AF%E9%A2%84%E8%AD%A6-99%20%E6%9D%A1-f87171) [![Telegram](https://img.shields.io/badge/Telegram-%40jichangcha-26A5E4?logo=telegram&logoColor=white)](https://t.me/jichangcha)
 
