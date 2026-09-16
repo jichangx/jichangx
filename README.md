@@ -12,7 +12,7 @@
 | 🥈 [xingdaomeng-jichang](https://github.com/jichangx/xingdaomeng-jichang) | **星岛梦深度测评**:套餐价格 / 实测 / 全平台配置教程 |
 | 🆓 [free-nodes](https://github.com/jichangx/free-nodes) | **每日免费节点**:每天 0 点自动更新,Clash / v2ray 订阅一键导入 |
 | 🍎 [share-apple-id](https://github.com/jichangx/share-apple-id) | **每日共享 Apple ID**:免费美区苹果 ID,App Store 下载小火箭等 App,每天更新 |
-| 🚨 [airport-status](https://github.com/jichangx/airport-status) | **机场跑路预警名单**:每日更新,下单前先查这家是否跑路(数据致谢 @limbopro) |
+| 🚨 [airport-status](https://github.com/jichangx/airport-status) | **全网最全最新的机场跑路预警名单** · 每日更新,下单前先查这家是否跑路 |
 
 ## 🔗 更多内容
 
