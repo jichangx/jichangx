@@ -98,7 +98,7 @@ export const SECTIONS = [
     groups: [
       {
         items: [
-          { site: 'gh', label: '每日共享 Apple ID · share-apple-id', url: gh('share-apple-id'), note: '免费美区苹果 ID,每天更新', live: 'shareId' },
+          { site: 'gh', label: '每日共享 Apple ID · share-apple-id', url: gh('share-apple-id'), note: '免费外区(美区)苹果 ID,每天更新,内容来自机场中文网', live: 'shareId' },
           { site: 'cha', label: '共享 Apple ID 页', url: cha('/share-id/'), note: '账号池每日多次刷新' },
           { site: 'cha', label: '共享 Apple ID 怎么用:美区 ID 下载小火箭完全指南', url: cha('/blog/gongxiang-apple-id/') },
           { site: 'cn', label: '免费外区 Apple ID 共享账号', url: cn('/apple-id/'), note: '每日更新,小火箭下载可用' },
@@ -115,7 +115,7 @@ export const SECTIONS = [
     groups: [
       {
         items: [
-          { site: 'gh', label: '全网最全最新的机场跑路预警名单 · airport-status', url: gh('airport-status'), note: '每日更新', live: 'warnings' },
+          { site: 'gh', label: '全网最全最新的机场跑路预警名单 · airport-status', url: gh('airport-status'), note: '每日更新,内容来自机场中文网', live: 'warnings' },
           { site: 'cha', label: '跑路机场预警页', url: cha('/airport-status/'), note: '名单一变,TG 频道立刻推送' },
           { site: 'cn', label: '跑路机场预警名单:每家一页社区讨论总结', url: cn('/airport-status/') },
           { site: 'cn', label: '机场跑路前的常见迹象', url: cn('/warnings/signs-before-shutdown/'), note: '出现这些信号就该准备撤了' },
@@ -137,6 +137,7 @@ export const SECTIONS = [
       {
         heading: '总入口',
         items: [
+          { site: 'gh', label: '客户端下载与教程仓库 · jichang-kehuduan', url: gh('jichang-kehuduan'), note: '全网最全的客户端收集 / 下载 / 图文教程 / 快讯,内容来自机场探,站点上线后同步' },
           { site: 'help', label: '全平台机场客户端下载与配置总表', url: help('/clients/'), note: '30 款客户端,一页下完' },
           { site: 'cn', label: '客户端安装与配置教程(按平台分类)', url: cn('/tutorials/') },
           { site: 'cn', label: '代理客户端官方下载地址汇总', url: cn('/download/') },
@@ -169,6 +170,7 @@ export const SECTIONS = [
       {
         heading: '入门',
         items: [
+          { site: 'gh', label: '翻墙科普攻略仓库 · fanqiang-kepu', url: gh('fanqiang-kepu'), note: '机场中文网「翻墙科普」栏目镜像,每日同步' },
           { site: 'help', label: '机场代理是什么:订阅、节点与客户端的关系', url: help('/articles/what-is-airport-proxy/') },
           { site: 'cn', label: '机场和 VPN 有什么区别,该选哪个', url: cn('/questions/airport-vs-vpn/') },
           { site: 'cha', label: '2026 梯子推荐:VPN、机场、自建节点怎么选', url: cha('/blog/2026-tizi-tuijian/') },
@@ -233,6 +235,7 @@ export const SECTIONS = [
       {
         heading: '固定栏目',
         items: [
+          { site: 'gh', label: '机场科普与快讯仓库 · jichang-kepu-kuaixun', url: gh('jichang-kepu-kuaixun'), note: '机场帮「机场杂谈」+ 最新文章,每日同步;机场探上线后合并' },
           { site: 'cha', label: '机场优惠码大全(月更)', url: cha('/blog/jichang-youhuima/') },
           { site: 'cn', label: '优惠码中心', url: cn('/coupons/') },
           { site: 'help', label: '机场杂谈:那些没人明说的机场常识', url: help('/category/airport-talk/') },
@@ -303,16 +306,18 @@ export const CLIENT_TABLE = [
   ] },
 ];
 
-/** GitHub 仓库导航 */
+/** GitHub 仓库导航(主页顶部,带 Star 数) */
 export const REPOS = [
-  { name: '2026-jichangcha-tuijian', emoji: '🏆', desc: '2026 机场推荐清单:老牌 / 性价比 / 稳定 / 高端四类整理,每日自动同步' },
-  { name: 'free-nodes', emoji: '🆓', desc: '每日免费节点:每天 0 点自动更新,Clash / v2ray 订阅一键导入' },
-  { name: 'share-apple-id', emoji: '🍎', desc: '每日共享 Apple ID:免费美区苹果 ID,App Store 下载小火箭等 App' },
-  { name: 'airport-status', emoji: '🚨', desc: '全网最全最新的机场跑路预警名单,每日更新,下单前先查这家是否跑路' },
-  { name: 'xingdaomeng-jichang', emoji: '🥇', desc: '星岛梦深度测评:套餐价格 / 实测 / 全平台配置教程' },
-  { name: 'feimao-jichang', emoji: '🥈', desc: '飞猫云深度测评:IEPL 专线性价比之选' },
+  { name: '2026-jichangcha-tuijian', emoji: '🏆', desc: '2026 机场推荐清单:老牌 / 性价比 / 稳定 / 高端四类整理,套餐价格、优惠码、站长实测记录,每日同步', from: '机场查' },
+  { name: 'free-nodes', emoji: '🆓', desc: '每日免费节点:每天 0 点自动更新,Clash / v2ray / 小火箭订阅一键导入', from: '机场查' },
+  { name: 'share-apple-id', emoji: '🍎', desc: '每日共享 Apple ID:免费外区(美区)苹果 ID,小火箭下载可用,每天更新', from: '机场中文网' },
+  { name: 'airport-status', emoji: '🚨', desc: '全网最全最新的机场跑路预警名单,每日更新,下单前先查这家是否跑路', from: '机场中文网' },
+  { name: 'xingdaomeng-jichang', emoji: '🥇', desc: '星岛梦机场怎么样:套餐价格、节点测速、解锁与线路评测', from: '机场中文网' },
+  { name: 'jichang-kehuduan', emoji: '🥈', desc: '全网最全的机场客户端收集 / 下载 / 图文教程 / 客户端科普与快讯(站点上线后同步,敬请期待)', from: '机场探' },
+  { name: 'fanqiang-kepu', emoji: '📚', desc: '翻墙科普攻略:原理、线路、故障排查、避坑与 AI 工具,每日同步栏目', from: '机场中文网' },
+  { name: 'jichang-kepu-kuaixun', emoji: '📰', desc: '机场科普与快讯:机场杂谈与最新动态,每日同步(机场探上线后合并)', from: '机场帮 · 机场探' },
 ];
-export const BRAND_REPOS = ['weitu-jichang', 'yuzhou-jichang', 'guangsu-jichang', 'u1s1-jichang', 'jilian-jichang', 'quanqiu-jichang', 'guangnian-jichang', 'yifan-jichang', 'ermao-jichang', 'sogo-jichang', 'edgenova-jichang', 'kexin-jichang', 'sujie-jichang', 'kuaili-jichang'];
+export const BRAND_REPOS = ['feimao-jichang', 'weitu-jichang', 'yuzhou-jichang', 'guangsu-jichang', 'u1s1-jichang', 'jilian-jichang', 'quanqiu-jichang', 'guangnian-jichang', 'yifan-jichang', 'ermao-jichang', 'sogo-jichang', 'edgenova-jichang', 'kexin-jichang', 'sujie-jichang', 'kuaili-jichang'];
 
 /** 实时数据源 */
 export const LIVE = {

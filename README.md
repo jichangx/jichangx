@@ -6,6 +6,24 @@
 
 这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com** 三个站和 GitHub 仓库里最值得收藏的页面,按七个板块整理。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
 
+<a name="repos"></a>
+## 📦 GitHub 仓库导航
+
+| 仓库 | 内容 | 来源 | Star |
+| ---- | ---- | ---- | ---- |
+| 🏆 [2026-jichangcha-tuijian](https://github.com/jichangx/2026-jichangcha-tuijian) | 2026 机场推荐清单:老牌 / 性价比 / 稳定 / 高端四类整理,套餐价格、优惠码、站长实测记录,每日同步 | 机场查 | [![Stars](https://img.shields.io/github/stars/jichangx/2026-jichangcha-tuijian?style=social)](https://github.com/jichangx/2026-jichangcha-tuijian/stargazers) |
+| 🆓 [free-nodes](https://github.com/jichangx/free-nodes) | 每日免费节点:每天 0 点自动更新,Clash / v2ray / 小火箭订阅一键导入 | 机场查 | [![Stars](https://img.shields.io/github/stars/jichangx/free-nodes?style=social)](https://github.com/jichangx/free-nodes/stargazers) |
+| 🍎 [share-apple-id](https://github.com/jichangx/share-apple-id) | 每日共享 Apple ID:免费外区(美区)苹果 ID,小火箭下载可用,每天更新 | 机场中文网 | [![Stars](https://img.shields.io/github/stars/jichangx/share-apple-id?style=social)](https://github.com/jichangx/share-apple-id/stargazers) |
+| 🚨 [airport-status](https://github.com/jichangx/airport-status) | 全网最全最新的机场跑路预警名单,每日更新,下单前先查这家是否跑路 | 机场中文网 | [![Stars](https://img.shields.io/github/stars/jichangx/airport-status?style=social)](https://github.com/jichangx/airport-status/stargazers) |
+| 🥇 [xingdaomeng-jichang](https://github.com/jichangx/xingdaomeng-jichang) | 星岛梦机场怎么样:套餐价格、节点测速、解锁与线路评测 | 机场中文网 | [![Stars](https://img.shields.io/github/stars/jichangx/xingdaomeng-jichang?style=social)](https://github.com/jichangx/xingdaomeng-jichang/stargazers) |
+| 🥈 [jichang-kehuduan](https://github.com/jichangx/jichang-kehuduan) | 全网最全的机场客户端收集 / 下载 / 图文教程 / 客户端科普与快讯(站点上线后同步,敬请期待) | 机场探 | [![Stars](https://img.shields.io/github/stars/jichangx/jichang-kehuduan?style=social)](https://github.com/jichangx/jichang-kehuduan/stargazers) |
+| 📚 [fanqiang-kepu](https://github.com/jichangx/fanqiang-kepu) | 翻墙科普攻略:原理、线路、故障排查、避坑与 AI 工具,每日同步栏目 | 机场中文网 | [![Stars](https://img.shields.io/github/stars/jichangx/fanqiang-kepu?style=social)](https://github.com/jichangx/fanqiang-kepu/stargazers) |
+| 📰 [jichang-kepu-kuaixun](https://github.com/jichangx/jichang-kepu-kuaixun) | 机场科普与快讯:机场杂谈与最新动态,每日同步(机场探上线后合并) | 机场帮 · 机场探 | [![Stars](https://img.shields.io/github/stars/jichangx/jichang-kepu-kuaixun?style=social)](https://github.com/jichangx/jichang-kepu-kuaixun/stargazers) |
+
+品牌测评仓库:[feimao](https://github.com/jichangx/feimao-jichang) · [weitu](https://github.com/jichangx/weitu-jichang) · [yuzhou](https://github.com/jichangx/yuzhou-jichang) · [guangsu](https://github.com/jichangx/guangsu-jichang) · [u1s1](https://github.com/jichangx/u1s1-jichang) · [jilian](https://github.com/jichangx/jilian-jichang) · [quanqiu](https://github.com/jichangx/quanqiu-jichang) · [guangnian](https://github.com/jichangx/guangnian-jichang) · [yifan](https://github.com/jichangx/yifan-jichang) · [ermao](https://github.com/jichangx/ermao-jichang) · [sogo](https://github.com/jichangx/sogo-jichang) · [edgenova](https://github.com/jichangx/edgenova-jichang) · [kexin](https://github.com/jichangx/kexin-jichang) · [sujie](https://github.com/jichangx/sujie-jichang) · [kuaili](https://github.com/jichangx/kuaili-jichang)
+
+**三个站各管什么**
+
 | 站点 | 定位 | 招牌内容 |
 | ---- | ---- | ---- |
 | [机场查 jichangcha.com](https://www.jichangcha.com/) | 机场品牌库与每日数据 | 32 家机场资料页与对比总表 · 每日免费节点 · 共享 Apple ID · 跑路预警 · 189 题问题库 |
@@ -60,7 +78,7 @@
 
 用外区 Apple ID 只登录 App Store 下载小火箭等应用,不要登录 iCloud,下载完就退出。
 
-- `GitHub` [每日共享 Apple ID · share-apple-id](https://github.com/jichangx/share-apple-id) —— 免费美区苹果 ID,每天更新 · 今日 30 个账号
+- `GitHub` [每日共享 Apple ID · share-apple-id](https://github.com/jichangx/share-apple-id) —— 免费外区(美区)苹果 ID,每天更新,内容来自机场中文网 · 今日 30 个账号
 - `机场查` [共享 Apple ID 页](https://www.jichangcha.com/share-id/) —— 账号池每日多次刷新
 - `机场查` [共享 Apple ID 怎么用:美区 ID 下载小火箭完全指南](https://www.jichangcha.com/blog/gongxiang-apple-id/)
 - `机场中文网` [免费外区 Apple ID 共享账号](https://jichangcnweb.com/apple-id/) —— 每日更新,小火箭下载可用
@@ -71,7 +89,7 @@
 
 买之前先查这家有没有跑路或预警记录;新机场只月付,年付只给运营两年以上的老牌。
 
-- `GitHub` [全网最全最新的机场跑路预警名单 · airport-status](https://github.com/jichangx/airport-status) —— 每日更新 · 已收录 99 条
+- `GitHub` [全网最全最新的机场跑路预警名单 · airport-status](https://github.com/jichangx/airport-status) —— 每日更新,内容来自机场中文网 · 已收录 99 条
 - `机场查` [跑路机场预警页](https://www.jichangcha.com/airport-status/) —— 名单一变,TG 频道立刻推送
 - `机场中文网` [跑路机场预警名单:每家一页社区讨论总结](https://jichangcnweb.com/airport-status/)
 - `机场中文网` [机场跑路前的常见迹象](https://jichangcnweb.com/warnings/signs-before-shutdown/) —— 出现这些信号就该准备撤了
@@ -88,6 +106,7 @@
 
 **入门**
 
+- `GitHub` [翻墙科普攻略仓库 · fanqiang-kepu](https://github.com/jichangx/fanqiang-kepu) —— 机场中文网「翻墙科普」栏目镜像,每日同步
 - `机场帮` [机场代理是什么:订阅、节点与客户端的关系](https://www.jichanghelp.com/articles/what-is-airport-proxy/)
 - `机场中文网` [机场和 VPN 有什么区别,该选哪个](https://jichangcnweb.com/questions/airport-vs-vpn/)
 - `机场查` [2026 梯子推荐:VPN、机场、自建节点怎么选](https://www.jichangcha.com/blog/2026-tizi-tuijian/)
@@ -139,6 +158,7 @@
 
 **总入口**
 
+- `GitHub` [客户端下载与教程仓库 · jichang-kehuduan](https://github.com/jichangx/jichang-kehuduan) —— 全网最全的客户端收集 / 下载 / 图文教程 / 快讯,内容来自机场探,站点上线后同步
 - `机场帮` [全平台机场客户端下载与配置总表](https://www.jichanghelp.com/clients/) —— 30 款客户端,一页下完
 - `机场中文网` [客户端安装与配置教程(按平台分类)](https://jichangcnweb.com/tutorials/)
 - `机场中文网` [代理客户端官方下载地址汇总](https://jichangcnweb.com/download/)
@@ -256,6 +276,7 @@
 
 **固定栏目**
 
+- `GitHub` [机场科普与快讯仓库 · jichang-kepu-kuaixun](https://github.com/jichangx/jichang-kepu-kuaixun) —— 机场帮「机场杂谈」+ 最新文章,每日同步;机场探上线后合并
 - `机场查` [机场优惠码大全(月更)](https://www.jichangcha.com/blog/jichang-youhuima/)
 - `机场中文网` [优惠码中心](https://jichangcnweb.com/coupons/)
 - `机场帮` [机场杂谈:那些没人明说的机场常识](https://www.jichanghelp.com/category/airport-talk/)
@@ -269,20 +290,6 @@
 - `TG` [TG 互助群 @jichangcha_chat:新手求助、吐槽避坑](https://t.me/jichangcha_chat)
 - `机场中文网` [机场中文网 RSS](https://jichangcnweb.com/rss.xml)
 - `机场帮` [机场帮 RSS](https://www.jichanghelp.com/rss.xml)
-
-<a name="repos"></a>
-## 📦 GitHub 仓库导航
-
-| 仓库 | 内容 |
-| ---- | ---- |
-| 🏆 [2026-jichangcha-tuijian](https://github.com/jichangx/2026-jichangcha-tuijian) | 2026 机场推荐清单:老牌 / 性价比 / 稳定 / 高端四类整理,每日自动同步 |
-| 🆓 [free-nodes](https://github.com/jichangx/free-nodes) | 每日免费节点:每天 0 点自动更新,Clash / v2ray 订阅一键导入 |
-| 🍎 [share-apple-id](https://github.com/jichangx/share-apple-id) | 每日共享 Apple ID:免费美区苹果 ID,App Store 下载小火箭等 App |
-| 🚨 [airport-status](https://github.com/jichangx/airport-status) | 全网最全最新的机场跑路预警名单,每日更新,下单前先查这家是否跑路 |
-| 🥇 [xingdaomeng-jichang](https://github.com/jichangx/xingdaomeng-jichang) | 星岛梦深度测评:套餐价格 / 实测 / 全平台配置教程 |
-| 🥈 [feimao-jichang](https://github.com/jichangx/feimao-jichang) | 飞猫云深度测评:IEPL 专线性价比之选 |
-
-品牌测评仓库:[weitu](https://github.com/jichangx/weitu-jichang) · [yuzhou](https://github.com/jichangx/yuzhou-jichang) · [guangsu](https://github.com/jichangx/guangsu-jichang) · [u1s1](https://github.com/jichangx/u1s1-jichang) · [jilian](https://github.com/jichangx/jilian-jichang) · [quanqiu](https://github.com/jichangx/quanqiu-jichang) · [guangnian](https://github.com/jichangx/guangnian-jichang) · [yifan](https://github.com/jichangx/yifan-jichang) · [ermao](https://github.com/jichangx/ermao-jichang) · [sogo](https://github.com/jichangx/sogo-jichang) · [edgenova](https://github.com/jichangx/edgenova-jichang) · [kexin](https://github.com/jichangx/kexin-jichang) · [sujie](https://github.com/jichangx/sujie-jichang) · [kuaili](https://github.com/jichangx/kuaili-jichang)
 
 ## 📌 声明
 

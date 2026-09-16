@@ -130,7 +130,7 @@ const latest = [
 
 /* ---------- 站点表 / 仓库表 ---------- */
 const siteTable = SITE_INTRO.map((s) => `| [${SITES[s.site].name} ${SITES[s.site].domain}](${SITES[s.site].home}) | ${s.role} | ${s.best} |`).join('\n');
-const repoTable = REPOS.map((r) => `| ${r.emoji} [${r.name}](https://github.com/jichangx/${r.name}) | ${r.desc} |`).join('\n');
+const repoTable = REPOS.map((r) => `| ${r.emoji} [${r.name}](https://github.com/jichangx/${r.name}) | ${r.desc} | ${r.from} | [![Stars](https://img.shields.io/github/stars/jichangx/${r.name}?style=social)](https://github.com/jichangx/${r.name}/stargazers) |`).join('\n');
 const brandRepos = BRAND_REPOS.map((r) => `[${r.replace('-jichang', '')}](https://github.com/jichangx/${r})`).join(' · ');
 
 /* ---------- 组装 ---------- */
@@ -153,6 +153,17 @@ ${badges}
 ![2026 翻墙机场精品聚合](banner.png)
 
 这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com** 三个站和 GitHub 仓库里最值得收藏的页面,按七个板块整理。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
+
+<a name="repos"></a>
+## 📦 GitHub 仓库导航
+
+| 仓库 | 内容 | 来源 | Star |
+| ---- | ---- | ---- | ---- |
+${repoTable}
+
+品牌测评仓库:${brandRepos}
+
+**三个站各管什么**
 
 | 站点 | 定位 | 招牌内容 |
 | ---- | ---- | ---- |
@@ -182,15 +193,6 @@ ${SECTIONS.find((s) => s.id === 'news').intro}
 ${latest}
 
 ${SECTIONS.find((s) => s.id === 'news').groups.map((g) => `**${g.heading}**\n\n${g.items.map(item).join('\n')}`).join('\n\n')}
-
-<a name="repos"></a>
-## 📦 GitHub 仓库导航
-
-| 仓库 | 内容 |
-| ---- | ---- |
-${repoTable}
-
-品牌测评仓库:${brandRepos}
 
 ## 📌 声明
 
