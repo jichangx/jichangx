@@ -162,7 +162,7 @@ ${badges}
 
 ![2026 翻墙机场精品聚合](banner.png)
 
-这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com、机场探 jichangtan.com** 四个站和 GitHub 仓库里最值得收藏的页面,按七个板块整理。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
+这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com、机场探 jichangtan.com** 四个站和 GitHub 仓库里最值得收藏的页面,按七个板块整理,机场、梯子、科学上网、Clash / 小火箭客户端、免费节点一页找齐。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
 
 > **一句话结论(${today})**:2026 年机场推荐主推星岛梦、次推飞猫云 / 微风网络 / 暮光网络,共收录 ${airportCount ?? '30 多'} 家;免费节点${freeNodesText ? `今日${freeNodesText}` : '每天 0 点更新'};共享 Apple ID ${shareTotal ? `今日 ${shareTotal} 个` : '每日更新'};跑路预警${warningCount ? `已收录 ${warningCount} 条` : '每日更新'};客户端 90 多款按平台分类,教程与科普四个站各一套。
 
