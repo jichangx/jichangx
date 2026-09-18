@@ -1,6 +1,7 @@
 /**
  * 精品聚合页内容清单(手工维护的部分都在这里,改完跑 node scripts/build-readme.mjs)
- * - 四个站:机场查 jichangcha.com / 机场帮 jichanghelp.com / 机场中文网 jichangcnweb.com / 机场探 jichangtan.com
+ * - 三个自有站:机场查 jichangcha.com / 机场帮 jichanghelp.com / 机场中文网 jichangcnweb.com
+ * - 机场探 jichangtan.com 只作为「推荐资源」收录:文案不写成自家站,不出现在站点表里(2026-09-18 决策,Bing 隔离)
  * - 只放真实存在的页面;数字与「最近更新」由脚本每天自动拉取,不要写死
  * - site 字段用于显示来源标签
  */
@@ -30,10 +31,13 @@ export const SITE_INTRO = [
     role: '评测、优惠码与避坑',
     best: '机场评测与优惠码中心 · 20 多篇带截图的客户端教程 · 跑路迹象与避坑指南 · AI 工具攻略',
   },
+];
+
+/** 推荐资源(不是自有站,只做推荐口吻) */
+export const RESOURCES = [
   {
     site: 'tan',
-    role: '每日测速观察与客户端库',
-    best: '今日机场观察与四类推荐 · 90 多款客户端按设备平台分类,官方下载与图文教程 · 协议 / 内核科普 · 客户端版本快讯 · 跑路预警讨论',
+    what: '每日测速观察、90 多款客户端按设备平台分类的下载与图文教程、协议 / 内核科普、客户端版本快讯',
   },
 ];
 
@@ -178,7 +182,7 @@ export const SECTIONS = [
     id: 'guide',
     emoji: '📚',
     title: '翻墙科普攻略',
-    intro: '从"机场是什么"到"怎么测速、怎么防泄漏",四个站各写了一套,按主题挑最合适的那篇。',
+    intro: '从"机场是什么"到"怎么测速、怎么防泄漏",几个站各写了一套,按主题挑最合适的那篇。',
     groups: [
       {
         heading: '入门',
@@ -247,7 +251,7 @@ export const SECTIONS = [
     id: 'news',
     emoji: '📰',
     title: '机场科普与快讯',
-    intro: '四个站的最新文章每天自动同步到下面;优惠码和跑路名单的变动会先到 TG 频道。',
+    intro: '各站最新文章每天自动同步到下面;优惠码和跑路名单的变动会先到 TG 频道。',
     groups: [
       {
         heading: '固定栏目',

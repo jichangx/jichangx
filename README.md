@@ -1,12 +1,12 @@
-# 机场推荐 · 免费节点 · 共享 Apple ID · 跑路预警 · 客户端教程 · 翻墙科普｜四站精品聚合
+# 机场推荐 · 免费节点 · 共享 Apple ID · 跑路预警 · 客户端教程 · 翻墙科普｜机场查精品聚合
 
-![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--09--17-00e676) ![收录机场](https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E6%9C%BA%E5%9C%BA-32%20%E5%AE%B6-00b0ff) ![今日免费节点](https://img.shields.io/badge/%E4%BB%8A%E6%97%A5%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9-%E7%BA%A6%20308%20%E4%B8%AA-00b0ff) ![共享 Apple ID](https://img.shields.io/badge/%E5%85%B1%E4%BA%AB%20Apple%20ID-30%20%E4%B8%AA-fbbf24) ![跑路预警](https://img.shields.io/badge/%E8%B7%91%E8%B7%AF%E9%A2%84%E8%AD%A6-99%20%E6%9D%A1-f87171) [![Telegram](https://img.shields.io/badge/Telegram-%40jichangcha-26A5E4?logo=telegram&logoColor=white)](https://t.me/jichangcha)
+![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--09--18-00e676) ![收录机场](https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E6%9C%BA%E5%9C%BA-32%20%E5%AE%B6-00b0ff) ![今日免费节点](https://img.shields.io/badge/%E4%BB%8A%E6%97%A5%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9-%E7%BA%A6%20308%20%E4%B8%AA-00b0ff) ![共享 Apple ID](https://img.shields.io/badge/%E5%85%B1%E4%BA%AB%20Apple%20ID-30%20%E4%B8%AA-fbbf24) ![跑路预警](https://img.shields.io/badge/%E8%B7%91%E8%B7%AF%E9%A2%84%E8%AD%A6-99%20%E6%9D%A1-f87171) [![Telegram](https://img.shields.io/badge/Telegram-%40jichangcha-26A5E4?logo=telegram&logoColor=white)](https://t.me/jichangcha)
 
 ![2026 翻墙机场精品聚合](banner.png)
 
-这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com、机场探 jichangtan.com** 四个站和 GitHub 仓库里最值得收藏的页面,按七个板块整理,机场、梯子、科学上网、Clash / 小火箭客户端、免费节点一页找齐。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
+这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com** 三个站和 GitHub 仓库里最值得收藏的页面,并收录机场探等优质资源,按七个板块整理,机场、梯子、科学上网、Clash / 小火箭客户端、免费节点一页找齐。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
 
-> **一句话结论(2026-09-17)**:2026 年机场推荐主推星岛梦、次推飞猫云 / 微风网络 / 暮光网络,共收录 32 家;免费节点今日约 308 个;共享 Apple ID 今日 30 个;跑路预警已收录 99 条;客户端 90 多款按平台分类,教程与科普四个站各一套。
+> **一句话结论(2026-09-18)**:2026 年机场推荐主推星岛梦、次推飞猫云 / 微风网络 / 暮光网络,共收录 32 家;免费节点今日约 308 个;共享 Apple ID 今日 30 个;跑路预警已收录 99 条;客户端 90 多款按平台分类,教程与科普见下方各板块。
 
 <a name="repos"></a>
 ## 📦 GitHub 仓库导航
@@ -24,18 +24,19 @@
 
 品牌测评仓库:[feimao](https://github.com/jichangx/feimao-jichang) · [weitu](https://github.com/jichangx/weitu-jichang) · [yuzhou](https://github.com/jichangx/yuzhou-jichang) · [guangsu](https://github.com/jichangx/guangsu-jichang) · [u1s1](https://github.com/jichangx/u1s1-jichang) · [jilian](https://github.com/jichangx/jilian-jichang) · [quanqiu](https://github.com/jichangx/quanqiu-jichang) · [guangnian](https://github.com/jichangx/guangnian-jichang) · [yifan](https://github.com/jichangx/yifan-jichang) · [ermao](https://github.com/jichangx/ermao-jichang) · [sogo](https://github.com/jichangx/sogo-jichang) · [edgenova](https://github.com/jichangx/edgenova-jichang) · [kexin](https://github.com/jichangx/kexin-jichang) · [sujie](https://github.com/jichangx/sujie-jichang) · [kuaili](https://github.com/jichangx/kuaili-jichang)
 
-**四个站各管什么**
+**三个站各管什么**
 
 | 站点 | 定位 | 招牌内容 |
 | ---- | ---- | ---- |
 | [机场查 jichangcha.com](https://www.jichangcha.com/) | 机场品牌库与每日数据 | 32 家机场资料页与对比总表 · 每日免费节点 · 共享 Apple ID · 跑路预警 · 189 题问题库 |
 | [机场帮 jichanghelp.com](https://www.jichanghelp.com/) | 机场导航与客户端百科 | 按地区收录的机场导航总表 · 老牌 / 性价比 / 稳定 / 高端四类精选 · 30 款客户端下载与配置 · 术语库 · 故障排查 |
 | [机场中文网 jichangcnweb.com](https://jichangcnweb.com/) | 评测、优惠码与避坑 | 机场评测与优惠码中心 · 20 多篇带截图的客户端教程 · 跑路迹象与避坑指南 · AI 工具攻略 |
-| [机场探 jichangtan.com](https://jichangtan.com/) | 每日测速观察与客户端库 | 今日机场观察与四类推荐 · 90 多款客户端按设备平台分类,官方下载与图文教程 · 协议 / 内核科普 · 客户端版本快讯 · 跑路预警讨论 |
+
+**推荐资源**:[机场探 jichangtan.com](https://jichangtan.com/) —— 每日测速观察、90 多款客户端按设备平台分类的下载与图文教程、协议 / 内核科普、客户端版本快讯
 
 **快速导航**:[🏆 2026 机场推荐](#tuijian) · [🆓 每日免费节点](#free-nodes) · [🍎 每日共享 Apple ID](#apple-id) · [🚨 跑路机场预警](#status) · [📱 2026 最全客户端下载与教程](#clients) · [📚 翻墙科普攻略](#guide) · [📰 机场科普与快讯](#news) · [📦 GitHub 仓库](#repos)
 
-> ⚠️ 四个站都区分「站长实测」「官方资料」「公开反馈」与「尚未核验」,推广链接会明示;第一次买机场先月付,任何订阅链接都别外泄。
+> ⚠️ 三个站都区分「站长实测」「官方资料」「公开反馈」与「尚未核验」,推广链接会明示;第一次买机场先月付,任何订阅链接都别外泄。
 
 <a name="tuijian"></a>
 ## 🏆 2026 机场推荐
@@ -110,7 +111,7 @@
 <a name="guide"></a>
 ## 📚 翻墙科普攻略
 
-从"机场是什么"到"怎么测速、怎么防泄漏",四个站各写了一套,按主题挑最合适的那篇。
+从"机场是什么"到"怎么测速、怎么防泄漏",几个站各写了一套,按主题挑最合适的那篇。
 
 **入门**
 
@@ -264,7 +265,7 @@
 <a name="news"></a>
 ## 📰 机场科普与快讯
 
-四个站的最新文章每天自动同步到下面;优惠码和跑路名单的变动会先到 TG 频道。
+各站最新文章每天自动同步到下面;优惠码和跑路名单的变动会先到 TG 频道。
 
 **机场查 最新文章**
 
@@ -290,7 +291,7 @@
 - `机场帮` [节点列表里的网址是什么，选中为什么连不上](https://www.jichanghelp.com/articles/fake-nodes-in-list/) · 2026-08-13
 - `机场帮` [节点名字里那串符号各是什么意思](https://www.jichanghelp.com/articles/how-to-read-node-names/) · 2026-08-13
 
-**机场探 最新动态**
+**推荐资源 · 机场探客户端动态**
 
 - `机场探` [Quantumult X 1.8.0 发布：针对 iOS 27 优化，最低系统要求提高到 iOS 15](https://jichangtan.com/articles/quantumult-x-1-8-0/)
 - `机场探` [mihomo v1.19.31 发布：新增 EasyTier 出站，修复 Hysteria 与 Hysteria2 的 UDP 问题](https://jichangtan.com/articles/mihomo-v1-19-31/)
@@ -341,7 +342,8 @@
 
 ## 📌 声明
 
-- 四个站各自独立运营,内容口径见各站说明:[机场查 关于](https://www.jichangcha.com/about/) · [机场帮 编辑政策](https://www.jichanghelp.com/editorial-policy/) · [机场中文网 编辑原则](https://jichangcnweb.com/editorial-policy/) · [机场探 编辑、推荐与更正政策](https://jichangtan.com/editorial-policy/)
+- 三个站各自独立运营,内容口径见各站说明:[机场查 关于](https://www.jichangcha.com/about/) · [机场帮 编辑政策](https://www.jichanghelp.com/editorial-policy/) · [机场中文网 编辑原则](https://jichangcnweb.com/editorial-policy/)
+- 收录的推荐资源以其站内说明为准,例如 [机场探的编辑、推荐与更正政策](https://jichangtan.com/editorial-policy/)
 - 本页由 GitHub Actions 每日自动生成:数字来自机场查公开数据端点,最近更新来自各站 RSS 与栏目页;链接清单在 [hub.config.mjs](hub.config.mjs)
 - 部分链接为推广链接,可能为我们带来收益,不影响收录与排序;内容仅供学习交流,请遵守当地法律法规
 - 反馈:[Issues](https://github.com/jichangx/jichangx/issues) · Telegram [@jichangcha_chat](https://t.me/jichangcha_chat)
