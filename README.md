@@ -1,12 +1,12 @@
 # 机场推荐 · 免费节点 · 共享 Apple ID · 跑路预警 · 客户端教程 · 翻墙科普｜机场查精品聚合
 
-![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--10--18-00e676) ![收录机场](https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E6%9C%BA%E5%9C%BA-32%20%E5%AE%B6-00b0ff) ![今日免费节点](https://img.shields.io/badge/%E4%BB%8A%E6%97%A5%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9-%E7%BA%A6%20265%20%E4%B8%AA-00b0ff) ![共享 Apple ID](https://img.shields.io/badge/%E5%85%B1%E4%BA%AB%20Apple%20ID-30%20%E4%B8%AA-fbbf24) ![跑路预警](https://img.shields.io/badge/%E8%B7%91%E8%B7%AF%E9%A2%84%E8%AD%A6-99%20%E6%9D%A1-f87171) [![Telegram](https://img.shields.io/badge/Telegram-%40jichangcha-26A5E4?logo=telegram&logoColor=white)](https://t.me/jichangcha)
+![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--10--19-00e676) ![收录机场](https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E6%9C%BA%E5%9C%BA-32%20%E5%AE%B6-00b0ff) ![今日免费节点](https://img.shields.io/badge/%E4%BB%8A%E6%97%A5%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9-%E7%BA%A6%20191%20%E4%B8%AA-00b0ff) ![共享 Apple ID](https://img.shields.io/badge/%E5%85%B1%E4%BA%AB%20Apple%20ID-30%20%E4%B8%AA-fbbf24) ![跑路预警](https://img.shields.io/badge/%E8%B7%91%E8%B7%AF%E9%A2%84%E8%AD%A6-99%20%E6%9D%A1-f87171) [![Telegram](https://img.shields.io/badge/Telegram-%40jichangcha-26A5E4?logo=telegram&logoColor=white)](https://t.me/jichangcha)
 
 ![2026 翻墙机场精品聚合](banner.png)
 
 这里汇总 **机场查 jichangcha.com、机场帮 jichanghelp.com、机场中文网 jichangcnweb.com** 三个站和 GitHub 仓库里最值得收藏的页面,并收录机场探等优质资源,按七个板块整理,机场、梯子、科学上网、Clash / 小火箭客户端、免费节点一页找齐。数字、最新文章每天由 GitHub Actions 自动同步,更新日期见顶部徽章。
 
-> **一句话结论(2026-10-18)**:2026 年机场推荐主推星岛梦、次推飞猫云 / 微风网络 / 暮光网络,共收录 32 家;免费节点今日约 265 个;共享 Apple ID 今日 30 个;跑路预警已收录 99 条;客户端 90 多款按平台分类,教程与科普见下方各板块。
+> **一句话结论(2026-10-19)**:2026 年机场推荐主推星岛梦、次推飞猫云 / 微风网络 / 暮光网络,共收录 32 家;免费节点今日约 191 个;共享 Apple ID 今日 30 个;跑路预警已收录 99 条;客户端 90 多款按平台分类,教程与科普见下方各板块。
 
 <a name="repos"></a>
 ## 📦 GitHub 仓库导航
@@ -74,7 +74,7 @@
 
 免费节点来自公开聚合,速度慢、随时失效,只适合临时应急;别用它登录网银或重要账号。
 
-- `GitHub` [每日免费节点 · free-nodes](https://github.com/jichangx/free-nodes) —— 每天 0 点自动更新,Clash / v2ray / 小火箭一键导入,导入一次以后自动拉最新 · 今日约 265 个
+- `GitHub` [每日免费节点 · free-nodes](https://github.com/jichangx/free-nodes) —— 每天 0 点自动更新,Clash / v2ray / 小火箭一键导入,导入一次以后自动拉最新 · 今日约 191 个
 - `机场查` [每日免费节点页](https://www.jichangcha.com/free-node/) —— 订阅地址、导入步骤与常见故障
 - `机场中文网` [每日免费节点分享](https://jichangcnweb.com/free-nodes/) —— 免费 v2ray / Clash 订阅地址,每天自动更新
 - `机场中文网` [免费机场能用吗?能连,但想清楚代价](https://jichangcnweb.com/questions/free-airport-safe/)
@@ -271,8 +271,8 @@
 
 - `机场查` [华为 VPN 教程 2026｜鸿蒙 OS 怎么装 ClashBox，完整科学上网配置](https://www.jichangcha.com/blog/hongmeng-clashbox-jiaocheng/)
 - `机场查` [Telegram 怎么注册?2026 国内 TG 注册完整教程(+86 收不到验证码解决)](https://www.jichangcha.com/blog/telegram-zhuce-jiaocheng/)
-- `机场查` [Claude AI 完全攻略:注册、桌面应用与玩法全解(2026 最新)](https://www.jichangcha.com/blog/claude-ai-jiaocheng/)
 - `机场查` [安卓手机怎么装 Google Play?2026 谷歌三件套安装保姆级教程(全品牌)](https://www.jichangcha.com/blog/anzhuo-anzhuang-google-play/)
+- `机场查` [Claude AI 完全攻略:注册、桌面应用与玩法全解(2026 最新)](https://www.jichangcha.com/blog/claude-ai-jiaocheng/)
 - `机场查` [华为鸿蒙怎么装 Google Play?2026 HarmonyOS 谷歌商店安装教程(含纯血鸿蒙)](https://www.jichangcha.com/blog/hongmeng-anzhuang-google-play/)
 
 **机场中文网 最新文章**
